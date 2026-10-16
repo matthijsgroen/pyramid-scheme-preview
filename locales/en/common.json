@@ -1,0 +1,1182 @@
+{
+  "language": "English",
+  "difficulty": {
+    "starter": "Starter",
+    "junior": "Junior",
+    "expert": "Expert",
+    "master": "Master",
+    "wizard": "Wizard"
+  },
+  "journeyLength": {
+    "short": "Short",
+    "medium": "Medium",
+    "long": "Long"
+  },
+  "time": {
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "night": "Night"
+  },
+  "tomb": {},
+  "ui": {
+    "level": "Level",
+    "symbols": "symbols",
+    "journey": "Journey",
+    "tableau": "Tableau",
+    "difficulty": "Difficulty",
+    "length": "Length",
+    "time": "Time",
+    "requiredPrestige": "Required Prestige Level",
+    "rewards": "Rewards",
+    "coins": "Coins",
+    "pieces": "Pieces",
+    "description": "Description",
+    "expedition": "Expedition",
+    "expeditionCompleted": "Expedition Completed!",
+    "goBackToBase": "Go back to base",
+    "backArrow": "←",
+    "back": "← Back",
+    "floor": "Floor {{number}}",
+    "enterSite": "Step inside",
+    "prompt": {
+      "here": "Investigate",
+      "stairs": "Take the stairs",
+      "exit": "Leave this place",
+      "zipline": "Ride the line — there is no way back",
+      "oneWay": "Cross over — there is no way back",
+      "liftStone": "Lift the stone",
+      "setStone": "Set the stone on the plate",
+      "postStone": "Post the stone",
+      "takeStone": "Take the stone",
+      "squeeze": "Squeeze through"
+    },
+    "blocked": {
+      "carrying": "Cannot pass with a stone"
+    },
+    "travel": "Travel",
+    "chooseYourJourney": "Choose Your Journey",
+    "backToMap": "Back to map",
+    "startAdventure": "Start your adventure by exploring pyramids.",
+    "continueExploration": "Continue your exploration of the pyramids.",
+    "continueExpedition": "Continue Expedition",
+    "startExpedition": "Start Expedition",
+    "planExpedition": "Plan Expedition",
+    "revisitExpedition": "Revisit — pick a pyramid",
+    "revisitTomb": "Revisit — re-enter the tomb",
+    "or": "Or",
+    "selectAnotherExpedition": "Select another expedition",
+    "interruptExpedition": "Interrupt expedition",
+    "confirmInterruptExpedition": "Are you sure you want to interrupt this expedition? Journey progress will be kept, but level progress will be lost!",
+    "cancel": "Cancel",
+    "settings": "Settings",
+    "language": "Language",
+    "close": "Close",
+    "done": "Done",
+    "clearGameData": "Clear game data",
+    "confirmClearGameData": "This permanently deletes all progress, items, and explored pyramids. This cannot be undone.",
+    "disableTutorials": "Disable tutorials",
+    "progressLevel": "In Progress",
+    "treasureTomb": "Treasure Location",
+    "requiresMapPieces": "Requires map pieces",
+    "mapPieces": "Map Pieces",
+    "completeExpeditionsToUnlock": "Complete expeditions to unlock",
+    "availableSymbols": "Available Symbols:",
+    "fragmentsNeeded": "{{found}}/{{required}} needed",
+    "howToPlay": "How to play",
+    "puzzleComplete": "The answer is:",
+    "puzzleCompleted": "Puzzle Complete",
+    "trapBlocked": "Not enough health to attempt this trap",
+    "spiritsRejectCode": "The spirits reject this code",
+    "sacredSealBroken": "The sacred seal is broken",
+    "newExpeditionUnlocked": "A new expedition is now unlocked",
+    "newTombUnlocked": "A new tomb is now unlocked",
+    "tierComingSoonTitle": "{{tier}} expeditions are on their way",
+    "tierComingSoon": "You hold the key, but the {{tier}} pyramids are still being built. They arrive in a later update — until then, your key opens more of the pyramids you already know.",
+    "startJourney": "Start {{name}}",
+    "answerNow": "The answer is: ",
+    "footer": "©️ {{year}} Matthijs Groen, v{{version}}",
+    "saveVersion": "· save v{{saveVersion}}",
+    "resetPuzzle": "Reset",
+    "hint": "Hint",
+    "undo": "Undo",
+    "erase": "Erase",
+    "notes": "Notes",
+    "solvedUnaided": "Solved without a single hint",
+    "solvedWithHints_one": "Solved with {{count}} hint",
+    "solvedWithHints_other": "Solved with {{count}} hints",
+    "tapToContinue": "Tap to continue",
+    "goal": "Goal"
+  },
+  "trap": {
+    "warning": "⚠ Trapped Corridor",
+    "canAttempt": "You can attempt to pass through.",
+    "tooWeak": "Dangerously weak — a failed attempt will leave you with nothing.",
+    "attempt": "Attempt the trap",
+    "heal": "Use a bandage",
+    "fullHeal": "Use oil (full heal)",
+    "disable": "Disable trap",
+    "turnAround": "Turn around"
+  },
+  "gate": {
+    "title": "🔒 Locked Gate",
+    "locked": "You don't have the right key yet.",
+    "markedWith": "A sign is cut into the door:",
+    "unlocked": "You have the key.",
+    "pass": "Pass through",
+    "turnAround": "Turn around",
+    "wardDescription": {
+      "starter": "A merchant's seal bars this passage — only their ward key will part it.",
+      "junior": "A nobleman's crest locks this way — his ward key alone lifts it.",
+      "expert": "A high priest's temple ward guards this door — its sacred key must open it.",
+      "master": "A pharaoh's royal seal binds this passage — only the sovereign's key breaks it.",
+      "wizard": "A ward of the gods holds this gate — nothing but its divine key will pass."
+    },
+    "needsKey": "The door is marked for one key:",
+    "lockedColor": "You haven't found that key on this floor yet."
+  },
+  "chest": {
+    "tapToOpen": "Tap to open",
+    "money_one": "{{count}} coin",
+    "money_other": "{{count}} coins",
+    "mapPiece": "Map Piece",
+    "mapPieceDescription": "A brittle scrap of a map to some long-forgotten place. A shame it's nowhere near complete...",
+    "mapPieceProgress": "{{found}} of {{required}} map pieces gathered",
+    "mapPieceComplete": "The map is whole — it leads to {{name}}.",
+    "hieroglyphFragment": "Hieroglyph Fragment",
+    "fragmentProgress": "{{found}} of {{required}} fragments found",
+    "tombKey": "Tomb Key",
+    "hieroglyphs": "Ancient Hieroglyphs",
+    "hieroglyphsDescription": "Sacred symbols inscribed on the walls of this chamber. Their meaning adds to your growing knowledge of the ancient world.",
+    "mosaicPiece": "Mosaic Piece",
+    "mosaicPieceDescription": "A gleaming glass tile, one fragment of a great mosaic. Set it beside the others and the hidden image slowly comes to light.",
+    "consumable": {
+      "bandage": "Bandage",
+      "oil": "Healing Oil",
+      "trapTool": "Trap Disabler"
+    },
+    "consumableFull": "Pack is full — {{item}} left behind",
+    "packFull": "Pack full"
+  },
+  "loot": {
+    "youFound": "You found",
+    "expeditionReward": "Extra reward for completing the expedition",
+    "clickToContinue": "Click anywhere to continue"
+  },
+  "money": {
+    "label": "Coins"
+  },
+  "shop": {
+    "title": "Fez's Stall",
+    "invitation": "Look over the stall",
+    "buy": "Buy",
+    "sell": "Sell",
+    "soldOut": "Sold out",
+    "dismiss": "Leave",
+    "rareItems": "Rare Finds",
+    "supplies": "Supplies",
+    "sellSection": "Trinkets to sell"
+  },
+  "level": {
+    "completed": "Level Completed!"
+  },
+  "mosaic": {
+    "place_one": "Place {{count}} piece",
+    "place_other": "Place {{count}} pieces",
+    "placing": "Placing…",
+    "panel": {
+      "starter": "The Guardian at the Door",
+      "junior": "The First Lesson",
+      "expert": "Letting the Sun In",
+      "master": "The Green King",
+      "wizard": "The Feather and the Heart"
+    }
+  },
+  "collection": {
+    "title": "Collection",
+    "clickForDetails": "Click a tile for details",
+    "categories": {
+      "deities": "🏺 Deities",
+      "professions": "⚱️ Professions",
+      "animals": "🐾 Animals",
+      "artifacts": "💎 Artifacts",
+      "treasures": "💰 Treasures",
+      "junk": "🔷 Trinkets",
+      "signs": "✍️ Signs"
+    },
+    "treasureCategories": {
+      "merchantCache": "💰 Merchant Cache",
+      "nobleVault": "👑 Noble Vault",
+      "templeSecrets": "🏛️ Temple Secrets",
+      "ancientRelics": "🏺 Ancient Relics",
+      "mythicalArtifacts": "✨ Mythical Artifacts"
+    }
+  },
+  "detector": {
+    "compassTitle": "Compass",
+    "consumableTitle": "Consumable detector",
+    "corridorTitle": "Hidden passageways",
+    "pickTarget": "Pick a hieroglyph to hunt in your Collection",
+    "allCollected": "All pieces collected",
+    "noSkippedChests": "No skipped chests",
+    "more": "+{{count}} more",
+    "corridorNearby": "A hidden corridor is close by",
+    "corridorOnFloor": "A hidden corridor waits on this floor",
+    "hunting": "Hunting {{symbol}}",
+    "huntStop": "Stop",
+    "huntHint": "Select an uncollected hieroglyph, then hunt it with the compass",
+    "huntAction": "Hunt {{symbol}}",
+    "lookingFor": "Looking for {{symbol}}",
+    "access": {
+      "open": "Nothing known blocking this one",
+      "locked": "Locked — you don't hold the key for this one yet",
+      "hidden": "In a hidden corridor — needs the passageway detector",
+      "unknown": "Might not be reachable yet — it's inside a tomb or for sale"
+    },
+    "corridorNoneNearby": "No hidden corridor close by",
+    "corridorNoneOnFloor": "No hidden corridor on this floor",
+    "corridorOtherFloor": "A hidden corridor waits on another floor",
+    "corridorNoneInPyramid": "No hidden corridors found so far in this pyramid",
+    "title": "Detector",
+    "band": {
+      "none": "Nothing detected",
+      "pyramid": "Something in this pyramid",
+      "floor": "Something on this floor",
+      "near": "Something close by"
+    }
+  },
+  "keys": {
+    "blue": "Blue key",
+    "red": "Red key",
+    "green": "Green key",
+    "yellow": "Yellow key",
+    "purple": "Purple key",
+    "bundle": "A ring of keys",
+    "foundDescription": "It opens the doors marked in this colour, on this floor.",
+    "heldTitle": "{{key}} — in hand",
+    "neededTitle": "{{key}} — still needed"
+  },
+  "balance": {
+    "rules": {
+      "tap": "Tap a glyph below, then a number. Tap that number again to take it off.",
+      "same": "A glyph weighs the same on every scale.",
+      "cancel": "Take the same thing off both pans and a scale stays balanced. Tap a marked piece to do it — what is left is kept as a new row.",
+      "swap": "Tap a glyph with nothing like it opposite, then a row where that glyph stands alone, to trade it for what that row is worth."
+    },
+    "hint": {
+      "mistake": "One of the weights you gave makes a scale tip. Take it off and look again.",
+      "alone": "On the lit row, {{glyph}} is the only piece left without a number on it. Work out what it weighs.",
+      "equalShares": "The lit row holds nothing but {{glyph}} against a number. Share that number out between them.",
+      "difference": "The two lit rows are the same apart from {{glyph}}. Compare them.",
+      "cancelGlyph": "Both pans of the lit row hold {{glyph}}. Tap one to take it off both sides — the row stays balanced.",
+      "cancelStones": "Both pans of the lit row hold plain numbers. Tap one to take the same amount off both sides.",
+      "swap": "One lit row says what a single {{glyph}} is worth on its own. Tap the {{glyph}} in the other lit row, then tap that row."
+    },
+    "swap": {
+      "pick": "Tap a lit row to trade this {{glyph}} for what that row says it is worth.",
+      "none": "Nothing here says what one {{glyph}} on its own is worth, and nothing opposite it matches."
+    },
+    "goal": {
+      "default": "Every glyph has a weight, and every scale balances.",
+      "weighing": "Every sign finds its weight, and every scale settles level."
+    },
+    "name": {
+      "default": "Balance Scale",
+      "weighing": "Weighing of the Heart"
+    }
+  },
+  "sumplete": {
+    "rules": {
+      "tap": "Tap once to cross a number out, again to mark it as one you keep, again to clear it.",
+      "totals": "The small number under each target is what that line adds up to right now."
+    },
+    "hint": {
+      "mistake": "One of the marks here cannot be right. Undo it and look again.",
+      "tooBig": {
+        "row": "This row still needs {{deficit}}. {{value}} is bigger than that, so it cannot stay.",
+        "col": "This column still needs {{deficit}}. {{value}} is bigger than that, so it cannot stay."
+      },
+      "allStrike": {
+        "row": "The numbers staying in this row already add up to its target, so everything else has to go.",
+        "col": "The numbers staying in this column already add up to its target, so everything else has to go."
+      },
+      "allKeep": {
+        "row": "This row already adds up to its target — mark these numbers as staying, so the columns through them can be worked out.",
+        "col": "This column already adds up to its target — mark these numbers as staying, so the rows through them can be worked out."
+      },
+      "parityKeep": {
+        "row": "This row still needs {{deficit}}, an odd number. {{value}} is the only odd number left, so it has to stay.",
+        "col": "This column still needs {{deficit}}, an odd number. {{value}} is the only odd number left, so it has to stay."
+      },
+      "parityStrike": {
+        "row": "This row still needs {{deficit}}, an even number. {{value}} is the only odd number left, so it has to go.",
+        "col": "This column still needs {{deficit}}, an even number. {{value}} is the only odd number left, so it has to go."
+      },
+      "onlyCombination": {
+        "row": "Only one set of numbers in this row adds up to {{deficit}}.",
+        "col": "Only one set of numbers in this column adds up to {{deficit}}."
+      },
+      "inEveryCombinationKeep": {
+        "row": "Without {{value}}, no set of the other numbers in this row makes {{deficit}} — so it has to stay.",
+        "col": "Without {{value}}, no set of the other numbers in this column makes {{deficit}} — so it has to stay."
+      },
+      "inEveryCombinationStrike": {
+        "row": "Keep {{value}} and this row would still need {{remaining}}, which none of the other numbers here can make — so it has to go.",
+        "col": "Keep {{value}} and this column would still need {{remaining}}, which none of the other numbers here can make — so it has to go."
+      },
+      "tooBig.row": "This row still needs {{deficit}}, and {{value}} is bigger than that.",
+      "tooBig.col": "This column still needs {{deficit}}, and {{value}} is bigger than that.",
+      "allStrike.row": "The numbers staying in this row already add up to its target.",
+      "allStrike.col": "The numbers staying in this column already add up to its target.",
+      "allKeep.row": "This row already adds up to its target, so the columns through it can be worked out next.",
+      "allKeep.col": "This column already adds up to its target, so the rows through it can be worked out next.",
+      "parityKeep.row": "This row still needs {{deficit}}, an odd number, and {{value}} is the only odd number left.",
+      "parityKeep.col": "This column still needs {{deficit}}, an odd number, and {{value}} is the only odd number left.",
+      "parityStrike.row": "This row still needs {{deficit}}, an even number, and {{value}} is the only odd number left.",
+      "parityStrike.col": "This column still needs {{deficit}}, an even number, and {{value}} is the only odd number left.",
+      "onlyCombination.row": "Only one set of numbers in this row adds up to {{deficit}}.",
+      "onlyCombination.col": "Only one set of numbers in this column adds up to {{deficit}}.",
+      "inEveryCombinationKeep.row": "Without {{value}}, no set of the other numbers in this row makes {{deficit}}.",
+      "inEveryCombinationKeep.col": "Without {{value}}, no set of the other numbers in this column makes {{deficit}}.",
+      "inEveryCombinationStrike.row": "Keep {{value}} and this row would still need {{remaining}}, which none of the other numbers here can make.",
+      "inEveryCombinationStrike.col": "Keep {{value}} and this column would still need {{remaining}}, which none of the other numbers here can make.",
+      "action": {
+        "strike_one": "Cross out the hatched number.",
+        "strike_other": "Cross out the hatched numbers.",
+        "keep_one": "Mark the hatched number as staying.",
+        "keep_other": "Mark the hatched numbers as staying."
+      }
+    },
+    "goal": "Every row and every column adds up to the number beside it.",
+    "name": "The Tally"
+  },
+  "futoshiki": {
+    "rules": {
+      "signs": "A sign between two squares points at the smaller number of the two.",
+      "enter": "Tap a square, then tap a number. The same number again takes it back out.",
+      "notes": "Switch to the pencil to jot down the numbers a square could still hold. Undo takes back your last move."
+    },
+    "hint": {
+      "mistake": {
+        "value": "One of the numbers here cannot be right. Take it back out and look again.",
+        "note": "This square's notes have ruled out the number that belongs here. Clear them and start it over."
+      },
+      "nakedSingle": "Every other number is already taken in this row, this column, or by the signs — only {{value}} is left for this square.",
+      "hiddenSingle": {
+        "row": "{{value}} fits in no other square of this row, so this is where it goes.",
+        "col": "{{value}} fits in no other square of this column, so this is where it goes."
+      },
+      "signBound": {
+        "high": "A sign here points away to a bigger number, so this square cannot hold {{value}}.",
+        "low": "A sign here points at this square, so something must be smaller than it — it cannot hold {{value}}."
+      },
+      "signVsValue": {
+        "less": "The sign says this square is smaller than its neighbour, and that neighbour holds {{value}}.",
+        "greater": "The sign says this square is bigger than its neighbour, and that neighbour holds {{value}}."
+      },
+      "signChain": {
+        "high": "Follow the signs from this square: {{chain}} squares in a row must each be bigger than the last, so this one cannot be above {{bound}}.",
+        "low": "Follow the signs into this square: {{chain}} squares in a row must each be smaller than the last, so this one cannot be below {{bound}}."
+      },
+      "signPair": {
+        "less": "The biggest number its neighbour across the sign can still hold is {{value}}, and this square must stay under it.",
+        "greater": "The smallest number its neighbour across the sign can still hold is {{value}}, and this square must stay above it."
+      },
+      "nakedPair": {
+        "row": "These two squares can only hold {{first}} and {{second}}, in one order or the other, so no other square in this row can have either.",
+        "col": "These two squares can only hold {{first}} and {{second}}, in one order or the other, so no other square in this column can have either."
+      },
+      "hiddenPair": {
+        "row": "In this row, {{first}} and {{second}} fit nowhere but these two squares, so nothing else can go in either of them.",
+        "col": "In this column, {{first}} and {{second}} fit nowhere but these two squares, so nothing else can go in either of them."
+      },
+      "xWing": {
+        "row": "{{value}} fits in only two squares of each of these two rows, and they stand in the same columns. Whichever way round it falls, both columns are spoken for — so {{value}} can go nowhere else in them.",
+        "col": "{{value}} fits in only two squares of each of these two columns, and they stand in the same rows. Whichever way round it falls, both rows are spoken for — so {{value}} can go nowhere else in them."
+      },
+      "nakedTriple": {
+        "row": "These three squares hold only {{first}}, {{second}} and {{third}} between them, so no other square in this row can take any of the three.",
+        "col": "These three squares hold only {{first}}, {{second}} and {{third}} between them, so no other square in this column can take any of the three."
+      },
+      "hiddenTriple": {
+        "row": "In this row, {{first}}, {{second}} and {{third}} fit nowhere but these three squares, so nothing else can go in any of them.",
+        "col": "In this column, {{first}}, {{second}} and {{third}} fit nowhere but these three squares, so nothing else can go in any of them."
+      }
+    },
+    "goal": "Every row and every column shows each number exactly once.",
+    "name": "Greater and Lesser"
+  },
+  "lightbeam": {
+    "rules": {
+      "mirrors": "A mirror bends the light off either of its faces. The small marks around it show the other ways it can lie: most turn the light a quarter, and some stop short of that and send it off at a slant.",
+      "walls": "A block of stone swallows the light. So does the edge of the board.",
+      "tap": "Tap a piece to change it: a mirror turns, a sliding piece moves to its next spot. A white edge means it is yours to move; anything else is part of the puzzle.",
+      "nodes": "Some stone is wired to a socket in the floor and no tap will move it. Send the light across the socket and the stone slides aside."
+    },
+    "hint": {
+      "entryRun": "Start where the light already goes: it runs straight from the disc until it meets the first piece you can change. Those squares carry the light whatever you do.",
+      "exitRun": "Look at the shrine. Only one side of it can be lit at all — every other way in is blocked or faces off the board — so the light has to arrive along that line.",
+      "wiringFires": {
+        "one": "The light has to cross that socket on its way — you have already worked out that much. Crossing it pulls the stone it is wired to out of the way, so the path beyond opens up.",
+        "all": "That stone is wired to more than one socket, and it only shifts once the light has crossed every one of them. Find a way to take the beam through them all."
+      },
+      "deadEnd": {
+        "wall": "Set this way, the light runs straight into stone with nothing left to save it. So it cannot be set this way.",
+        "disc": "Set this way, the mirror sends the light back the way it came, all the way into the disc it came out of. So it cannot be set this way.",
+        "edge": "Set this way, the light runs off the edge of the board with nothing left to catch it. So it cannot be set this way.",
+        "loop": "Set this way, the light never gets anywhere — it circles for ever. So it cannot be set this way."
+      },
+      "feedsExit": {
+        "wall": "Work back from the shrine. Set this way, nothing can deliver the light along the only line that reaches it — it dies in stone on the way.",
+        "disc": "Work back from the shrine. Set this way, the light would have to come out of the shadowed back of the disc, and no light comes from there.",
+        "edge": "Work back from the shrine. Set this way, the light would have to come from outside the board to reach it.",
+        "loop": "Work back from the shrine. Set this way, the light that would have to reach it only circles for ever instead."
+      },
+      "wiringDead": "Whatever you do, the light can never get to that socket — so the stone it is wired to stays exactly where it is, and you can read the path straight past it.",
+      "neverReached": "Leave this one alone. The light cannot reach it however the rest is set, so nothing you do to it matters.",
+      "onlySurvivor": "Try every setting of this one in turn and all but one leave the shrine dark. That one is the answer."
+    },
+    "goal": "The sunlight runs from the disc to the shrine.",
+    "name": "Beam of Light"
+  },
+  "eclipse": {
+    "rules": {
+      "triple": "Three of the same in a row is never allowed, across or down.",
+      "copies": "No two rows may read alike, and no two columns either.",
+      "signs": "A sign between two squares says how they compare: = for the same, × for different.",
+      "enter": "Tap a square to put a sun there, tap again for a moon, tap once more to empty it."
+    },
+    "hint": {
+      "mistake": "One of these marks cannot be right.",
+      "sign.same": "= means the same.",
+      "sign.different": "× means different.",
+      "noTriple.pair": "Two {{mark}} already, and three in a row is never allowed.",
+      "noTriple.sandwich": "{{mark}} on both sides, and three in a row is never allowed.",
+      "signPair": "These two match, and that {{mark}} stands beside them.",
+      "lineCount": "This line has its {{count}} {{mark}} already.",
+      "noCopy": "The other way round would copy the line lit up.",
+      "linePairing.sameNoRoom": "Only {{count}} {{mark}} left here, and these two match.",
+      "linePairing.differentTakesOne": "The × pairs use up the {{mark}} this line has room for.",
+      "loneMark": "One {{mark}} left, and only one square keeps three {{other}} apart.",
+      "squeeze.triple": "{{mark}} here would make the rest {{other}} — three in a row.",
+      "squeeze.sign": "{{mark}} here would make the rest {{other}} — a sign stops fitting.",
+      "squeeze.copy": "{{mark}} here would make the rest {{other}} — the line becomes a copy.",
+      "action": {
+        "fill_one": "Put {{mark}} in the hatched square.",
+        "fill_other": "Put {{mark}} in the hatched squares.",
+        "fillMixed": "Fill in the hatched squares — the only way round that works."
+      }
+    },
+    "goal": "Every square holds a sun or a moon, and every line holds as many of one as of the other.",
+    "name": "Sun and Moon"
+  },
+  "constellation": {
+    "rules": {
+      "default": {
+        "straight": "Lines of light run straight across or down, from one star to the next.",
+        "pair": "Two stars can share at most two lines.",
+        "cross": "Lines never cross, and never pass through a star.",
+        "enter": "Drag from a star toward its neighbour to draw a line, again for a double, once more to clear it."
+      },
+      "causeway": {
+        "straight": "Haul roads run straight across or down, from one site to the next.",
+        "pair": "Two sites can share at most two roads.",
+        "cross": "Roads never cross, and never run through a site.",
+        "enter": "Drag from a site toward its neighbour to lay a road, again to double it, once more to tear it up."
+      },
+      "irrigation": {
+        "straight": "Channels run straight across or down, from one basin to the next.",
+        "pair": "Two basins can share at most two channels.",
+        "cross": "Channels never cross, and never run through a basin.",
+        "enter": "Drag from a basin toward its neighbour to dig a channel, again to widen it, once more to fill it in."
+      },
+      "ceiling": {
+        "straight": "Cords run straight across or down, from one star to the next.",
+        "pair": "Two stars can share at most two cords.",
+        "cross": "Cords never cross, and never run through a star.",
+        "enter": "Drag from a star toward its neighbour to lay a cord, again to double it, once more to lift it off."
+      }
+    },
+    "hint": {
+      "default": {
+        "mistake": "One of these lines cannot be right.",
+        "capacity": "{{count}} lines, and only just enough ways out.",
+        "settled": "This {{count}} has its lines.",
+        "soleWayOut": "Only one way out left, and {{count}} still to draw.",
+        "crossed": "A line there would cross this one.",
+        "atLeastOne": "{{count}} lines, and the other ways out cannot carry them all.",
+        "twinBlock.single": "Joining those two would make a constellation of two.",
+        "twinBlock.double": "A second line there would make a constellation of two.",
+        "isolation": "That line would seal these {{count}} stars off from the rest.",
+        "action": {
+          "draw_one": "Draw the marked line.",
+          "draw_other": "Draw the marked lines.",
+          "refuse_one": "The marked line stays undrawn.",
+          "refuse_other": "The marked lines stay undrawn.",
+          "refuseDouble": "One line there, and no second."
+        }
+      },
+      "causeway": {
+        "mistake": "One of these roads cannot be right.",
+        "capacity": "{{count}} roads, and only just enough ways out.",
+        "settled": "This {{count}} has its roads.",
+        "soleWayOut": "Only one way out left, and {{count}} still to lay.",
+        "crossed": "A road there would cross this one.",
+        "atLeastOne": "{{count}} roads, and the other ways out cannot carry them all.",
+        "twinBlock.single": "Joining those two would make a network of two.",
+        "twinBlock.double": "A second road there would make a network of two.",
+        "isolation": "That road would cut these {{count}} sites off from the rest.",
+        "action": {
+          "draw_one": "Lay the marked road.",
+          "draw_other": "Lay the marked roads.",
+          "refuse_one": "The marked road stays unbuilt.",
+          "refuse_other": "The marked roads stay unbuilt.",
+          "refuseDouble": "One road there, and no second."
+        }
+      },
+      "irrigation": {
+        "mistake": "One of these channels cannot be right.",
+        "capacity": "{{count}} channels, and only just enough ways out.",
+        "settled": "This {{count}} has its channels.",
+        "soleWayOut": "Only one way out left, and {{count}} still to dig.",
+        "crossed": "A channel there would cross this one.",
+        "atLeastOne": "{{count}} channels, and the other ways out cannot carry them all.",
+        "twinBlock.single": "Joining those two would make a waterworks of two.",
+        "twinBlock.double": "A second channel there would make a waterworks of two.",
+        "isolation": "That channel would cut these {{count}} basins off from the rest.",
+        "action": {
+          "draw_one": "Dig the marked channel.",
+          "draw_other": "Dig the marked channels.",
+          "refuse_one": "The marked channel stays undug.",
+          "refuse_other": "The marked channels stay undug.",
+          "refuseDouble": "One channel there, and no second."
+        }
+      },
+      "ceiling": {
+        "mistake": "One of these cords cannot be right.",
+        "capacity": "{{count}} cords, and only just enough ways out.",
+        "settled": "This {{count}} has its cords.",
+        "soleWayOut": "Only one way out left, and {{count}} still to lay.",
+        "crossed": "A cord there would cross this one.",
+        "atLeastOne": "{{count}} cords, and the other ways out cannot carry them all.",
+        "twinBlock.single": "Joining those two would make a painted sky of two.",
+        "twinBlock.double": "A second cord there would make a painted sky of two.",
+        "isolation": "That cord would cut these {{count}} stars off from the rest.",
+        "action": {
+          "draw_one": "Lay the marked cord.",
+          "draw_other": "Lay the marked cords.",
+          "refuse_one": "The marked cord stays unlaid.",
+          "refuse_other": "The marked cords stay unlaid.",
+          "refuseDouble": "One cord there, and no second."
+        }
+      }
+    },
+    "goal": {
+      "default": "Every star hangs in one constellation, joined by as many lines of light as its number says.",
+      "causeway": "Every site stands in one road network, served by as many haul roads as its number says.",
+      "irrigation": "Every basin feeds one waterworks, fed by as many channels as its number says.",
+      "ceiling": "Every star belongs to one painted sky, tied by as many cords of gold as its number says."
+    },
+    "name": {
+      "default": "Star Map",
+      "causeway": "Causeway",
+      "irrigation": "Waterworks",
+      "ceiling": "Painted Ceiling"
+    }
+  },
+  "starBattle": {
+    "rules": {
+      "default": {
+        "touch": "No two stars may touch — corners count.",
+        "enter": "Tap a square to rule it out, tap again to put a star there, once more to clear it."
+      },
+      "fields": {
+        "touch": "No two farmsteads may touch — corners count. That close, they would share one well.",
+        "enter": "Tap a plot to rule it out, tap again to raise a farmstead, once more to clear it."
+      }
+    },
+    "hint": {
+      "default": {
+        "mistake": "This mark cannot be right.",
+        "touch": "A {{token}} here, and nothing may touch a {{token}}.",
+        "groupFull.row_one": "This row already has its {{token}}.",
+        "groupFull.row_other": "This row already has its {{count}} {{token}}.",
+        "groupFull.col_one": "This column already has its {{token}}.",
+        "groupFull.col_other": "This column already has its {{count}} {{token}}.",
+        "groupFull.region_one": "This region already has its {{token}}.",
+        "groupFull.region_other": "This region already has its {{count}} {{token}}.",
+        "groupTight.row_one": "This row is down to one square.",
+        "groupTight.row_other": "This row is down to {{count}} squares.",
+        "groupTight.col_one": "This column is down to one square.",
+        "groupTight.col_other": "This column is down to {{count}} squares.",
+        "groupTight.region_one": "This region is down to one square.",
+        "groupTight.region_other": "This region is down to {{count}} squares.",
+        "onlyWay.row_one": "There is only one way to fit a {{token}} in this row.",
+        "onlyWay.row_other": "There is only one way to fit {{count}} {{token}} in this row.",
+        "onlyWay.col_one": "There is only one way to fit a {{token}} in this column.",
+        "onlyWay.col_other": "There is only one way to fit {{count}} {{token}} in this column.",
+        "onlyWay.region_one": "There is only one way to fit a {{token}} in this region.",
+        "onlyWay.region_other": "There is only one way to fit {{count}} {{token}} in this region.",
+        "everyWay.row_one": "Wherever this row's {{token}} goes, it is always here.",
+        "everyWay.row_other": "Wherever this row's {{count}} {{token}} go, one is always here.",
+        "everyWay.col_one": "Wherever this column's {{token}} goes, it is always here.",
+        "everyWay.col_other": "Wherever this column's {{count}} {{token}} go, one is always here.",
+        "everyWay.region_one": "Wherever this region's {{token}} goes, it is always here.",
+        "everyWay.region_other": "Wherever this region's {{count}} {{token}} go, one is always here.",
+        "regionLine.row_one": "The marked region’s {{token}} has to come from that row.",
+        "regionLine.row_other": "The marked region’s {{count}} {{token}} have to come from that row.",
+        "regionLine.col_one": "The marked region’s {{token}} has to come from that column.",
+        "regionLine.col_other": "The marked region’s {{count}} {{token}} have to come from that column.",
+        "lineRegion.row_one": "That row’s {{token}} belongs to the marked region.",
+        "lineRegion.row_other": "That row’s {{count}} {{token}} belong to the marked region.",
+        "lineRegion.col_one": "That column’s {{token}} belongs to the marked region.",
+        "lineRegion.col_other": "That column’s {{count}} {{token}} belong to the marked region.",
+        "spanning.toRows": "The marked regions fill those {{count}} rows between them.",
+        "spanning.toCols": "The marked regions fill those {{count}} columns between them.",
+        "spanning.fromRows": "The marked rows can only take their {{count}} {{token}} from those regions.",
+        "spanning.fromCols": "The marked columns can only take their {{count}} {{token}} from those regions.",
+        "wouldStrand.row": "A {{token}} here would leave the marked row nowhere to stand.",
+        "wouldStrand.col": "A {{token}} here would leave the marked column nowhere to stand.",
+        "wouldStrand.region": "A {{token}} here would leave the marked region nowhere to stand.",
+        "action": {
+          "ruleOut_one": "Rule out the hatched square.",
+          "ruleOut_other": "Rule out the hatched squares.",
+          "place_one": "Put a {{token}} in the hatched square.",
+          "place_other": "Put a {{token}} in each hatched square."
+        }
+      },
+      "fields": {
+        "mistake": "This mark cannot be right.",
+        "touch": "A {{token}} here, and no plot it touches can hold another.",
+        "groupFull.row_one": "This row is already worked.",
+        "groupFull.row_other": "This row already has its {{count}} {{token}}.",
+        "groupFull.col_one": "This column is already worked.",
+        "groupFull.col_other": "This column already has its {{count}} {{token}}.",
+        "groupFull.region_one": "This holding is already worked.",
+        "groupFull.region_other": "This holding already has its {{count}} {{token}}.",
+        "groupTight.row_one": "This row is down to one plot.",
+        "groupTight.row_other": "This row is down to {{count}} plots.",
+        "groupTight.col_one": "This column is down to one plot.",
+        "groupTight.col_other": "This column is down to {{count}} plots.",
+        "groupTight.region_one": "This holding is down to one plot.",
+        "groupTight.region_other": "This holding is down to {{count}} plots.",
+        "onlyWay.row_one": "There is only one plot in this row left to build on.",
+        "onlyWay.row_other": "There is only one way to fit {{count}} {{token}} along this row.",
+        "onlyWay.col_one": "There is only one plot in this column left to build on.",
+        "onlyWay.col_other": "There is only one way to fit {{count}} {{token}} along this column.",
+        "onlyWay.region_one": "There is only one plot in this holding left to build on.",
+        "onlyWay.region_other": "There is only one way to fit {{count}} {{token}} on this holding.",
+        "everyWay.row_one": "However this row is worked, its {{token}} stands here.",
+        "everyWay.row_other": "However this row is worked, one of its {{count}} {{token}} stands here.",
+        "everyWay.col_one": "However this column is worked, its {{token}} stands here.",
+        "everyWay.col_other": "However this column is worked, one of its {{count}} {{token}} stands here.",
+        "everyWay.region_one": "However this holding is worked, its {{token}} stands here.",
+        "everyWay.region_other": "However this holding is worked, one of its {{count}} {{token}} stands here.",
+        "regionLine.row_one": "The marked holding's {{token}} has to come from that row.",
+        "regionLine.row_other": "The marked holding's {{count}} {{token}} have to come from that row.",
+        "regionLine.col_one": "The marked holding's {{token}} has to come from that column.",
+        "regionLine.col_other": "The marked holding's {{count}} {{token}} have to come from that column.",
+        "lineRegion.row_one": "That row's {{token}} belongs to the marked holding.",
+        "lineRegion.row_other": "That row's {{count}} {{token}} belong to the marked holding.",
+        "lineRegion.col_one": "That column's {{token}} belongs to the marked holding.",
+        "lineRegion.col_other": "That column's {{count}} {{token}} belong to the marked holding.",
+        "spanning.toRows": "The marked holdings fill those {{count}} rows between them.",
+        "spanning.toCols": "The marked holdings fill those {{count}} columns between them.",
+        "spanning.fromRows": "The marked rows can only take their {{count}} {{token}} from those holdings.",
+        "spanning.fromCols": "The marked columns can only take their {{count}} {{token}} from those holdings.",
+        "wouldStrand.row": "A {{token}} here would leave the marked row nowhere to build.",
+        "wouldStrand.col": "A {{token}} here would leave the marked column nowhere to build.",
+        "wouldStrand.region": "A {{token}} here would leave the marked holding nowhere to build.",
+        "action": {
+          "ruleOut_one": "Rule out the hatched plot.",
+          "ruleOut_other": "Rule out the hatched plots.",
+          "place_one": "Raise a {{token}} on the hatched plot.",
+          "place_other": "Raise a {{token}} on each hatched plot."
+        }
+      }
+    },
+    "quota": {
+      "default": "Per row, column and region",
+      "fields": "Per row, column and holding"
+    },
+    "goal": {
+      "default_one": "Every row, every column and every region holds exactly one star.",
+      "default_other": "Every row, every column and every region holds exactly {{count}} stars.",
+      "fields_one": "Every row, every column and every holding has exactly one farmstead.",
+      "fields_other": "Every row, every column and every holding has exactly {{count}} farmsteads."
+    },
+    "name": {
+      "default": "Stars Apart",
+      "fields": "Farmsteads",
+      "twinDefault": "Twin Stars",
+      "twinFields": "Twin Farmsteads"
+    }
+  },
+  "rushHour": {
+    "name": {
+      "default": "The Blockade",
+      "market": "The Blocked Lane"
+    },
+    "goal": {
+      "default": "Get your own block out through the gap on the right.",
+      "market": "Work your own sledge out through the gap at the end of the street."
+    },
+    "rules": {
+      "default": {
+        "lanes": "A block only slides along its own lane — never sideways, never off the board.",
+        "shove": "Drag a block to shove it. It stops where something is in the way."
+      },
+      "market": {
+        "lanes": "A sledge only slides along the lane it stands in — never sideways, never out of the street.",
+        "shove": "Drag a sledge to shove it. It stops where something is in the way."
+      }
+    },
+    "hint": {
+      "default": {
+        "drive": "The way ahead is clear that far.",
+        "back": "Nothing ahead will give. Back yours out of the way first.",
+        "clear": "That block stands across your own lane.",
+        "room": "Nothing can move until that one does.",
+        "push": {
+          "left": "Shove it left, as far as the ring.",
+          "right": "Shove it right, as far as the ring.",
+          "up": "Shove it up, as far as the ring.",
+          "down": "Shove it down, as far as the ring."
+        }
+      },
+      "market": {
+        "drive": "The lane ahead of yours is clear that far.",
+        "back": "Nothing ahead will give. Back your own sledge up first.",
+        "clear": "That load stands across the lane you leave by.",
+        "room": "Nothing can shift until that one is moved.",
+        "push": {
+          "left": "Shove it left, as far as the ring.",
+          "right": "Shove it right, as far as the ring.",
+          "up": "Shove it up the street, as far as the ring.",
+          "down": "Shove it down the street, as far as the ring."
+        }
+      }
+    }
+  },
+  "hidato": {
+    "rules": {
+      "default": {
+        "given": "The numbers already in the comb are part of the puzzle — they stay put.",
+        "enter": "Tap a number to pick the run up there, then tap a touching empty cell to carry it on — or drag straight through the cells it goes.",
+        "back": "Tap a number you laid and tap it again to take it back off, along with anything left hanging on it. Carrying the run a different way out of a number does the same. Undo takes back your last move."
+      },
+      "channel": {
+        "given": "The fields already numbered are part of the puzzle — they stay put.",
+        "enter": "Tap a numbered field to pick the water up there, then tap a dry field beside it to dig on — or drag straight along the fields the channel runs.",
+        "back": "Tap a field you dug and tap it again to fill it back in, along with any channel left cut off from it. Digging a different way out of a field does the same. Undo takes back your last move."
+      },
+      "scribe": {
+        "given": "The figures inked in red are the puzzle's own — they stay put.",
+        "enter": "Tap a figure to take up the reed there, then tap an empty space beside it to write on — or drag straight along the line.",
+        "back": "Tap a figure you wrote and tap it again to scrape it off, along with any line left cut off from it. Writing a different way out of a figure does the same. Undo takes back your last move."
+      },
+      "chambers": {
+        "given": "The chambers already numbered were cut by the builders — they stay put.",
+        "enter": "Tap a numbered chamber to take up the passage there, then tap a sealed chamber beside it to break through — or drag straight along the chambers the passage runs.",
+        "back": "Tap a chamber you opened and tap it again to seal it up, along with any passage left cut off from it. Breaking through a different way out of a chamber does the same. Undo takes back your last move."
+      }
+    },
+    "goal": {
+      "default": "Every cell of the comb holds a number, 1 to {{last}}, each one in a cell touching the number before it.",
+      "channel": "One channel waters the whole plain: every field takes its turn, 1 to {{last}}, each one dug beside the field before it.",
+      "scribe": "One unbroken line of figures crosses the sheet: every space carries a figure, 1 to {{last}}, each one beside the figure before it.",
+      "chambers": "One passage runs the whole tomb: every chamber is opened in turn, 1 to {{last}}, each one broken through from the chamber before it."
+    },
+    "hint": {
+      "default": {
+        "reason": {
+          "mistake": "One of these numbers cannot be right.",
+          "sandwich": "The {{before}} and the {{after}} touch only one open cell between them.",
+          "neighbourForced": "The {{from}} has only one open cell left beside it.",
+          "onlyCell": "There is nowhere else left in the comb for the {{value}}.",
+          "onlyValue": "No other number can reach this cell."
+        },
+        "action": {
+          "place": "Put {{value}} in the hatched cell."
+        }
+      },
+      "channel": {
+        "reason": {
+          "mistake": "One of these numbers cannot be right.",
+          "sandwich": "The {{before}} and the {{after}} touch only one dry field between them.",
+          "neighbourForced": "Only one dry field is left beside the {{from}}.",
+          "onlyCell": "Nowhere else on the plain can take the {{value}}.",
+          "onlyValue": "No other number can reach this field."
+        },
+        "action": {
+          "place": "Dig {{value}} in the hatched field."
+        }
+      },
+      "scribe": {
+        "reason": {
+          "mistake": "One of these figures cannot be right.",
+          "sandwich": "The {{before}} and the {{after}} touch only one empty space between them.",
+          "neighbourForced": "Only one empty space is left beside the {{from}}.",
+          "onlyCell": "Nowhere else on the sheet can take the {{value}}.",
+          "onlyValue": "No other figure can reach this space."
+        },
+        "action": {
+          "place": "Write {{value}} in the hatched space."
+        }
+      },
+      "chambers": {
+        "reason": {
+          "mistake": "One of these numbers cannot be right.",
+          "sandwich": "The {{before}} and the {{after}} touch only one sealed chamber between them.",
+          "neighbourForced": "Only one sealed chamber is left beside the {{from}}.",
+          "onlyCell": "Nowhere else in the tomb can take the {{value}}.",
+          "onlyValue": "No other number can reach this chamber."
+        },
+        "action": {
+          "place": "Open {{value}} in the hatched chamber."
+        }
+      }
+    },
+    "name": {
+      "default": "Beehive",
+      "channel": "The Channel",
+      "scribe": "Scribe's Sheet",
+      "chambers": "Sealed Chambers"
+    }
+  },
+  "sudoku": {
+    "rules": {
+      "default": {
+        "chambers": "The heavy lines cut the grid into six chambers, two squares wide and three tall.",
+        "given": "The numbers already carved in are part of the puzzle — they stay put.",
+        "enter": "Tap a square, then tap a number. The same number again takes it back out.",
+        "notes": "Switch to the pencil to jot down the numbers a square could still hold. Undo takes back your last move."
+      },
+      "papyrus": {
+        "chambers": "The heavy rules divide the sheet into six panels, two spaces wide and three tall.",
+        "given": "The signs inked in red are the puzzle's own — they stay put.",
+        "enter": "Tap a space, then tap a sign. The same sign again scrapes it off.",
+        "notes": "Take up the reed pen to pencil in the signs a space could still carry. Undo takes back your last move."
+      }
+    },
+    "hint": {
+      "default": {
+        "reason": {
+          "mistake": {
+            "value": "One of the numbers here cannot be right. Take it back out and look again.",
+            "note": "This square's notes have ruled out the number that belongs here. Clear them and start it over."
+          },
+          "nakedSingle": "This square's row, column and chamber have taken every other number.",
+          "hiddenSingle": {
+            "row": "{{token}} fits in no other square of this row.",
+            "col": "{{token}} fits in no other square of this column.",
+            "box": "{{token}} fits in no other square of this chamber."
+          },
+          "pointing": {
+            "row": "Inside the marked chamber, {{token}} can only stand on this row.",
+            "col": "Inside the marked chamber, {{token}} can only stand in this column."
+          },
+          "claiming": {
+            "row": "Along the marked row, {{token}} fits only inside this one chamber.",
+            "col": "Down the marked column, {{token}} fits only inside this one chamber."
+          }
+        },
+        "action": {
+          "place": "Put {{token}} in the hatched square.",
+          "ruleOut_one": "Rule {{token}} out of the hatched square.",
+          "ruleOut_other": "Rule {{token}} out of the hatched squares."
+        }
+      },
+      "papyrus": {
+        "reason": {
+          "mistake": {
+            "value": "One of these signs cannot be right. Scrape it off and look again.",
+            "note": "This space's pencil marks have ruled out the sign that belongs here. Rub them out and start it over."
+          },
+          "nakedSingle": "This space's row, column and panel have taken every other sign.",
+          "hiddenSingle": {
+            "row": "{{token}} fits in no other space of this row.",
+            "col": "{{token}} fits in no other space of this column.",
+            "box": "{{token}} fits in no other space of this panel."
+          },
+          "pointing": {
+            "row": "Inside the marked panel, {{token}} can only stand on this row.",
+            "col": "Inside the marked panel, {{token}} can only stand in this column."
+          },
+          "claiming": {
+            "row": "Along the marked row, {{token}} fits only inside this one panel.",
+            "col": "Down the marked column, {{token}} fits only inside this one panel."
+          }
+        },
+        "action": {
+          "place": "Ink {{token}} in the hatched space.",
+          "ruleOut_one": "Rule {{token}} out of the hatched space.",
+          "ruleOut_other": "Rule {{token}} out of the hatched spaces."
+        }
+      }
+    },
+    "goal": {
+      "default": "Every row, every column and every chamber shows each of the six numbers exactly once.",
+      "papyrus": "Every row, every column and every panel carries each of the six signs exactly once."
+    },
+    "name": {
+      "default": "Six Chambers",
+      "papyrus": "The Scribe's Register"
+    }
+  },
+  "crocodile": {
+    "name": "The Crocodile Pit",
+    "goal": "Cross the pit to the far bank.",
+    "rules": {
+      "want": "Each crocodile wants one answer from the row of stones behind it: the biggest, or the smallest.",
+      "mark": "Its open mouth says which, and so does the sign beside it: > opens toward the biggest answer, < toward the smallest.",
+      "bite": "Step on any other stone and it bites: you lose health and start again from the near bank."
+    },
+    "hint": {
+      "biggest": "This crocodile wants the biggest answer. That is {{value}}.",
+      "smallest": "This crocodile wants the smallest answer. That is {{value}}."
+    }
+  },
+  "canisters": {
+    "name": {
+      "default": "The Canisters",
+      "grain": "The Grain Measures",
+      "oil": "Oil for the Lamps",
+      "wine": "The Merchant's Cellar",
+      "natron": "The Canopic Jars",
+      "ink": "The Scriptorium"
+    },
+    "goal": {
+      "default_one": "Measure out the volume asked for, and say which canister holds it.",
+      "default_other": "Measure out each volume asked for in turn, saying which canister holds it before the next.",
+      "grain_one": "Measure out the amount of grain asked for, and say which measure holds it.",
+      "grain_other": "Measure out each amount of grain in turn, saying which measure holds it before the next.",
+      "oil_one": "Measure out the oil asked for, and say which jar holds it.",
+      "oil_other": "Measure out each measure of oil in turn, saying which jar holds it before the next.",
+      "wine_one": "Measure out the wine asked for, and say which amphora holds it.",
+      "wine_other": "Measure out each measure of wine in turn, saying which amphora holds it before the next.",
+      "natron_one": "Measure out the natron asked for, and say which jar holds it.",
+      "natron_other": "Measure out each measure of natron in turn, saying which jar holds it before the next.",
+      "ink_one": "Measure out the ink asked for, and say which pot holds it.",
+      "ink_other": "Measure out each measure of ink in turn, saying which pot holds it before the next."
+    },
+    "rules": {
+      "method": {
+        "sums": "Every amount you can make is two numbers on the bench put together or taken apart: a canister's size, what is in it, or the room it has left.",
+        "backwards": "So work back from the amount asked for — which two numbers make it, and how do you get those two standing at the same time?"
+      },
+      "claim": "When you have the amount, tap “this one”. Naming the wrong vessel costs a move.",
+      "legs": "Then the next amount, measured from whatever the vessels are left holding.",
+      "default": {
+        "moves": "Tap a canister to pick it up, then tap another to pour into it. A pour stops when the first runs dry or the second is full.",
+        "contents": "This is all the water there is — one canister starts full, and none can be thrown away or fetched.",
+        "levels": "Each canister says how much is in it, against how much it holds when full."
+      },
+      "grain": {
+        "moves": "Tap a measure to lift it, then tap another to tip the grain in. Tipping stops when the first is empty or the second is level with its rim.",
+        "contents": "This is all the grain there is — one measure starts full, and none can be swept away or fetched from the granary.",
+        "levels": "Each measure says how much is in it, against how much it holds when level with its rim."
+      },
+      "oil": {
+        "moves": "Tap a jar to lift it, then tap another to pour into it. A pour stops when the first runs dry or the second is full.",
+        "contents": "This is all the oil there is — one jar starts full, and none can be poured away or drawn.",
+        "levels": "Each jar says how much is in it, against how much it holds when full."
+      },
+      "wine": {
+        "moves": "Tap an amphora to lift it, then tap another to decant into it. Decanting stops when the first runs dry or the second is full.",
+        "contents": "This is all the wine there is — one amphora starts full, and none can be spilled or fetched from the cellar.",
+        "levels": "Each amphora says how much is in it, against how much it holds when full."
+      },
+      "natron": {
+        "moves": "Tap a jar to lift it, then tap another to tip the natron in. Tipping stops when the first is empty or the second is filled to its lid.",
+        "contents": "This is all the natron there is — one jar starts full, and none can be swept away or fetched.",
+        "levels": "Each jar says how much is in it, against how much it holds when filled to its lid."
+      },
+      "ink": {
+        "moves": "Tap a pot to lift it, then tap another to pour into it. A pour stops when the first runs dry or the second is full.",
+        "contents": "This is all the ink there is — one pot starts full, and none can be tipped out or ground fresh.",
+        "levels": "Each pot says how much is in it, against how much it holds when full."
+      }
+    },
+    "hint": {
+      "goal": {
+        "leftover": "Working back: {{amount}} is {{content}} with {{space}} taken off it — a canister holding {{content}} poured into one with room for {{space}}.",
+        "full": "Working back: {{amount}} is a canister's size, and {{a}} and {{b}} put together are exactly it.",
+        "sum": "Working back: {{amount}} is {{a}} and {{b}} put together."
+      },
+      "claim": "That is one pour away. Then work out which canister holds it.",
+      "stuck": "From here {{target}} can no longer be measured in the moves you have left. Take a pour back, or start the board again.",
+      "overBudget": "There are no moves left. Take one back, or reset and find the shorter way.",
+      "next": {
+        "leftover": "The sum before that: {{amount}} — {{content}} poured into room for {{space}}.",
+        "full": "The sum before that: a canister standing full at {{amount}} — {{a}} and {{b}} put together.",
+        "sum": "The sum before that: {{amount}} — {{a}} and {{b}} put together."
+      }
+    },
+    "movesLeft_one": "{{count}} move left",
+    "movesLeft_other": "{{count}} moves left",
+    "legs": "measured {{done}} of {{total}}",
+    "wanted": "Measure out",
+    "claim": "this one",
+    "claimAria": "Say the {{capacity}} holds the amount"
+  },
+  "procession": {
+    "name": {
+      "default": "The Ordered Hours",
+      "funerary": "The Day in the Workmen's Valley",
+      "cosmos": "The Night's Crossing",
+      "water": "The Day of the Flood",
+      "trade": "The Day at the Quay"
+    },
+    "goal": {
+      "default": "Slide every thing that happens into its hour, until all the marks under the day hold.",
+      "funerary": "Slide every task into its hour, until all the marks under the day hold.",
+      "cosmos": "Slide every light into its hour, until all the marks under the night hold.",
+      "water": "Slide every task into its hour, until all the marks under the day hold.",
+      "trade": "Slide every task into its hour, until all the marks under the day hold."
+    },
+    "rules": {
+      "default": {
+        "lengths": "Each row is one thing that happens, and it takes as long as its bar is wide. When it happens is what you work out.",
+        "marks": "A line under the day turns red while it does not hold. Tap one to ring the rows it is about.",
+        "drag": "Drag a bar along its own row. It never leaves the day."
+      }
+    },
+    "hint": {
+      "default": {
+        "chain": "That row's place is already fixed, and this one hangs off it.",
+        "squeeze": "There is only so much day left, and this is all of it that fits.",
+        "apart": "The other way round does not fit in the day.",
+        "split": "Try it the other way round and something else breaks.",
+        "move": "Drag the ringed bar onto the hatched ticks."
+      }
+    },
+    "events": {
+      "default": [
+        "the fire",
+        "the water carrying",
+        "the baking",
+        "the boat trip",
+        "the ox driving",
+        "the night watch"
+      ],
+      "funerary": [
+        "the plastering",
+        "the grid drawing",
+        "the carving",
+        "the painting",
+        "the gilding",
+        "the door fitting"
+      ],
+      "cosmos": [
+        "the sun's crossing",
+        "the star's rising",
+        "the moon's watch",
+        "the open sky",
+        "the dawn",
+        "the turning year"
+      ],
+      "water": [
+        "the flood",
+        "the channel digging",
+        "the basin filling",
+        "the field watering",
+        "the ferrying",
+        "the reaping"
+      ],
+      "trade": [
+        "the goods sorting",
+        "the bread selling",
+        "the beer selling",
+        "the ferrying",
+        "the hauling",
+        "the tally"
+      ]
+    },
+    "marks": {
+      "default": {
+        "pin": "{{a}} starts at hour {{tick}}.",
+        "handoff": "{{a}} starts the moment {{b}} is done.",
+        "link_one": "{{a}} starts {{count}} hour after {{b}} is done.",
+        "link_other": "{{a}} starts {{count}} hours after {{b}} is done.",
+        "before": "{{a}} is done before {{b}} starts.",
+        "apart": "{{a}} and {{b}} never run at the same time.",
+        "together": "{{a}} and {{b}} run at the same time for a while.",
+        "span_one": "First start to last finish is {{count}} hour.",
+        "span_other": "First start to last finish is {{count}} hours."
+      }
+    },
+    "door": {
+      "title": "The Procession Door",
+      "hint": "Each tile you step on frees its doing. Order the day, then walk the tiles in that order.",
+      "read": "The day is read. Walk its tiles in this order, from the first.",
+      "hintButton": "Hint"
+    }
+  },
+  "story": {
+    "log": {
+      "title": "What we have been told",
+      "empty": "Nothing yet. Fez will have plenty to say."
+    },
+    "speaker": {
+      "fez": "Fez",
+      "explorer": "You",
+      "ipi": "Ipi",
+      "henut": "Henut",
+      "priest": "The priest",
+      "pharaoh": "The pharaoh"
+    },
+    "wall": {
+      "wrong": "Somebody cut the third sign wrong. It has been wrong for three thousand years.",
+      "fixed": "That is her name again.",
+      "pick": "Put the right sign in its place.",
+      "cannot": "You do not know the sign that belongs here. Not yet."
+    },
+    "sphinx": {
+      "wrong": "The writing at the base, where the sand keeps shifting off. Two signs still cut clean, and a space where the third was.",
+      "fixed": "That is the whole of it.",
+      "pick": "Put the sign you are carrying into the space.",
+      "cannot": "Two signs you know, and a space you cannot fill. Not yet.",
+      "gap": "The missing sign"
+    }
+  },
+  "lightbeamSwitch": {
+    "name": "The Turning Light",
+    "invitation": "Turn the mirrors",
+    "goal": "The light rests in a shrine, and the way out beneath it stands open.",
+    "rules": {
+      "shrines": "One disc of light, and a shrine over every way out of this junction. The mirrors on the floor can carry the light to any of them.",
+      "doors": "The way out the light reaches stands open, and the others are shut. One routing, one way on.",
+      "returning": "Nothing is lost by choosing. Walk back in whenever you like and send the light another way instead — that way opens, and this one closes.",
+      "tap": "Tap a mirror to turn it. Tapping it again puts it back."
+    },
+    "doorOpen": "{{way}} way out: open",
+    "doorShut": "{{way}} way out: shut",
+    "way": { "n": "Northern", "e": "Eastern", "s": "Southern", "w": "Western" }
+  },
+  "handle": {
+    "name": "The Lever",
+    "invitation": "Throw the lever",
+    "goal": "The lever hangs one way or the other. What one side opens, the other shuts.",
+    "left": "Throw it left",
+    "right": "Throw it right"
+  },
+  "torch": {
+    "name": "The Torch",
+    "invitation": "Light the torch",
+    "goal": "An unlit torch. Once it burns it cannot be put out again.",
+    "lit": "The torch is burning."
+  },
+  "gateFace": {
+    "title": "A Door That Waits",
+    "hint": "Every sign must burn before this door will open.",
+    "lit": "{{owner}}: lit",
+    "unlit": "{{owner}}: not yet",
+    "owner": { "torch": "Torch", "handle": "Lever", "key": "Key", "plateStone": "A stone on a plate", "plateEmpty": "A plate left empty", "other": "Mechanism" },
+    "orderHint": "Walk the tiles in this order.",
+    "reset": "Start again",
+    "spoiled": "The run is spoiled: a tile was walked out of order.",
+    "tile": { "unwalked": "Step {{step}}: not yet walked", "inOrder": "Step {{step}}: walked in order", "outOfOrder": "Step {{step}}: walked out of order" }
+  },
+  "devLockEditor": {"syntax":"Syntax","example":"Example","useExample":"Use example","title":"Lock editor","notation":"Lock notation","checks":"Checks","drawing":"Drawing","carveAndPlay":"Carve and play","copyLink":"Copy link","copied":"Link copied","failed":"Could not copy; the link is in the address bar","backToEditor":"← Editor","close":"Close","open":"Lock editor"}
+}

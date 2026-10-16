@@ -1,0 +1,1182 @@
+{
+  "language": "Nederlands",
+  "difficulty": {
+    "starter": "Beginner",
+    "junior": "Junior",
+    "expert": "Expert",
+    "master": "Meester",
+    "wizard": "Tovenaar"
+  },
+  "journeyLength": {
+    "short": "Kort",
+    "medium": "Gemiddeld",
+    "long": "Lang"
+  },
+  "time": {
+    "morning": "Ochtend",
+    "afternoon": "Middag",
+    "evening": "Avond",
+    "night": "Nacht"
+  },
+  "tomb": {},
+  "ui": {
+    "level": "Niveau",
+    "symbols": "symbolen",
+    "journey": "Reis",
+    "tableau": "Tableau",
+    "difficulty": "Moeilijkheid",
+    "length": "Lengte",
+    "time": "Tijd",
+    "requiredPrestige": "Vereist Prestige Niveau",
+    "rewards": "Beloningen",
+    "coins": "Munten",
+    "pieces": "Stukken",
+    "description": "Beschrijving",
+    "expedition": "Expeditie",
+    "expeditionCompleted": "Expeditie Voltooid!",
+    "goBackToBase": "Terug naar basis",
+    "backArrow": "←",
+    "back": "← Terug",
+    "floor": "Verdieping {{number}}",
+    "enterSite": "Naar binnen",
+    "prompt": {
+      "here": "Onderzoek",
+      "stairs": "Neem de trap",
+      "exit": "Deze plek verlaten",
+      "zipline": "Glij langs de lijn — er is geen weg terug",
+      "oneWay": "Steek over — er is geen weg terug",
+      "liftStone": "Til de steen op",
+      "setStone": "Leg de steen op de plaat",
+      "postStone": "Schuif de steen erin",
+      "takeStone": "Pak de steen",
+      "squeeze": "Wurm je er door"
+    },
+    "blocked": {
+      "carrying": "Niet te passeren met een steen"
+    },
+    "travel": "Reizen",
+    "chooseYourJourney": "Kies je Reis",
+    "backToMap": "Terug naar kaart",
+    "startAdventure": "Begin je avontuur door piramides te verkennen.",
+    "continueExploration": "Ga door met het verkennen van de piramides.",
+    "continueExpedition": "Ga door met Expeditie",
+    "startExpedition": "Start Expeditie",
+    "planExpedition": "Plan Expeditie",
+    "revisitExpedition": "Opnieuw bezoeken — kies een piramide",
+    "revisitTomb": "Opnieuw bezoeken — betreed de tombe",
+    "or": "Of",
+    "selectAnotherExpedition": "Selecteer een andere expeditie",
+    "interruptExpedition": "Onderbreek expeditie",
+    "confirmInterruptExpedition": "Weet je zeker dat je deze expeditie wilt onderbreken? Expeditie voortgang wordt bewaard, maar niveau voortgang gaat verloren!",
+    "cancel": "Annuleren",
+    "settings": "Instellingen",
+    "language": "Taal",
+    "close": "Sluiten",
+    "done": "Klaar",
+    "clearGameData": "Spelgegevens wissen",
+    "confirmClearGameData": "Dit verwijdert permanent alle voortgang, items en verkende piramides. Dit kan niet ongedaan worden gemaakt.",
+    "disableTutorials": "Tutorials uitschakelen",
+    "progressLevel": "Voortgang",
+    "treasureTomb": "Schatlokatie",
+    "requiresMapPieces": "Vereist kaartdelen",
+    "mapPieces": "Kaartdelen",
+    "completeExpeditionsToUnlock": "Voltooi expedities om te ontgrendelen",
+    "availableSymbols": "Beschikbare Symbolen:",
+    "fragmentsNeeded": "{{found}}/{{required}} nodig",
+    "howToPlay": "Hoe te spelen",
+    "puzzleComplete": "Het antwoord is:",
+    "puzzleCompleted": "Puzzel Voltooid",
+    "trapBlocked": "Niet genoeg gezondheid om deze val te proberen",
+    "spiritsRejectCode": "De geesten verwerpen deze code",
+    "sacredSealBroken": "Het heilige zegel is verbroken",
+    "newExpeditionUnlocked": "Een nieuwe expeditie is nu ontgrendeld",
+    "newTombUnlocked": "Een nieuwe tombe is nu ontgrendeld",
+    "tierComingSoonTitle": "{{tier}}-expedities zijn onderweg",
+    "tierComingSoon": "Je hebt de sleutel, maar aan de {{tier}}-piramides wordt nog gebouwd. Ze komen in een latere update — tot die tijd opent je sleutel meer van de piramides die je al kent.",
+    "startJourney": "Start {{name}}",
+    "answerNow": "Het antwoord is: ",
+    "footer": "©️ {{year}} Matthijs Groen, v{{version}}",
+    "saveVersion": "· opslag v{{saveVersion}}",
+    "resetPuzzle": "Opnieuw",
+    "hint": "Hint",
+    "undo": "Ongedaan",
+    "erase": "Wissen",
+    "notes": "Notities",
+    "solvedUnaided": "Opgelost zonder ook maar één hint",
+    "solvedWithHints_one": "Opgelost met {{count}} hint",
+    "solvedWithHints_other": "Opgelost met {{count}} hints",
+    "tapToContinue": "Tik om verder te gaan",
+    "goal": "Doel"
+  },
+  "trap": {
+    "warning": "⚠ Gevaarlijke Gang",
+    "canAttempt": "Je kunt proberen door te gaan.",
+    "tooWeak": "Gevaarlijk zwak — een mislukte poging laat je met niets achter.",
+    "attempt": "Val proberen",
+    "heal": "Gebruik verband",
+    "fullHeal": "Gebruik olie (volledig herstel)",
+    "disable": "Val uitschakelen",
+    "turnAround": "Omdraaien"
+  },
+  "gate": {
+    "title": "🔒 Gesloten Poort",
+    "locked": "Je hebt de juiste sleutel nog niet.",
+    "markedWith": "In de deur staat een teken gekerfd:",
+    "unlocked": "Je hebt de sleutel.",
+    "pass": "Doorgaan",
+    "turnAround": "Omdraaien",
+    "wardDescription": {
+      "starter": "Een handelaarszegel verspert deze doorgang — enkel hun wachtsleutel opent hem.",
+      "junior": "Het wapen van een edelman sluit deze weg — alleen zijn wachtsleutel licht het op.",
+      "expert": "De tempelban van een hogepriester bewaakt deze deur — enkel de heilige sleutel opent hem.",
+      "master": "Het koninklijke zegel van een farao bindt deze doorgang — enkel de sleutel van de vorst verbreekt het.",
+      "wizard": "Een ban van de goden houdt deze poort — niets dan de goddelijke sleutel komt erlangs."
+    },
+    "needsKey": "De deur is gemarkeerd voor één sleutel:",
+    "lockedColor": "Die sleutel heb je op deze verdieping nog niet gevonden."
+  },
+  "chest": {
+    "tapToOpen": "Tik om te openen",
+    "money_one": "{{count}} munt",
+    "money_other": "{{count}} munten",
+    "mapPiece": "Kaartdeel",
+    "mapPieceDescription": "Een brokkelig stuk van een kaart naar een lang vergeten plek. Jammer dat het bij lange na niet compleet is...",
+    "mapPieceProgress": "{{found}} van {{required}} kaartdelen verzameld",
+    "mapPieceComplete": "De kaart is compleet — hij leidt naar {{name}}.",
+    "hieroglyphFragment": "Hiërogliefenfragment",
+    "fragmentProgress": "{{found}} van {{required}} fragmenten gevonden",
+    "tombKey": "Tombesleutel",
+    "hieroglyphs": "Hiëroglieven",
+    "hieroglyphsDescription": "Heilige symbolen gegraveerd in de wanden van deze kamer. Hun betekenis vergroot je kennis van de oude wereld.",
+    "mosaicPiece": "Mozaïekstuk",
+    "mosaicPieceDescription": "Een glanzende glazen tegel, één stukje van een groot mozaïek. Leg het bij de andere en het verborgen beeld komt langzaam tot leven.",
+    "consumable": {
+      "bandage": "Verband",
+      "oil": "Genezende Olie",
+      "trapTool": "Valuitschakelaar"
+    },
+    "consumableFull": "Rugzak vol — {{item}} achtergelaten",
+    "packFull": "Rugzak vol"
+  },
+  "loot": {
+    "youFound": "Je hebt gevonden",
+    "expeditionReward": "Extra beloning voor het voltooien van de expeditie",
+    "clickToContinue": "Klik ergens om door te gaan"
+  },
+  "money": {
+    "label": "Munten"
+  },
+  "shop": {
+    "title": "Fez's Kraam",
+    "invitation": "Bekijk de kraam",
+    "buy": "Kopen",
+    "sell": "Verkopen",
+    "soldOut": "Uitverkocht",
+    "dismiss": "Vertrekken",
+    "rareItems": "Zeldzame Vondsten",
+    "supplies": "Benodigdheden",
+    "sellSection": "Snuisterijen verkopen"
+  },
+  "level": {
+    "completed": "Niveau Voltooid!"
+  },
+  "mosaic": {
+    "place_one": "Plaats {{count}} stuk",
+    "place_other": "Plaats {{count}} stukken",
+    "placing": "Bezig met plaatsen…",
+    "panel": {
+      "starter": "De Wachter bij de Deur",
+      "junior": "De Eerste Les",
+      "expert": "Het Licht Binnenlaten",
+      "master": "De Groene Koning",
+      "wizard": "De Veer en het Hart"
+    }
+  },
+  "collection": {
+    "title": "Collectie",
+    "clickForDetails": "Klik op een tegel voor details",
+    "categories": {
+      "deities": "🏺 Goden",
+      "professions": "⚱️ Beroepen",
+      "animals": "🐾 Dieren",
+      "artifacts": "💎 Artefacten",
+      "treasures": "💰 Schatten",
+      "junk": "🔷 Snuisterijen",
+      "signs": "✍️ Tekens"
+    },
+    "treasureCategories": {
+      "merchantCache": "💰 Handelaars Voorraad",
+      "nobleVault": "👑 Edelman's Verborgen Kluis",
+      "templeSecrets": "🏛️ Tempel Geheimen",
+      "ancientRelics": "🏺 Oude Relieken",
+      "mythicalArtifacts": "✨ Mythische Artefacten"
+    }
+  },
+  "detector": {
+    "compassTitle": "Kompas",
+    "consumableTitle": "Voorraaddetector",
+    "corridorTitle": "Verborgen gangen",
+    "pickTarget": "Kies een hiëroglief om op te jagen in je collectie",
+    "allCollected": "Alle stukken verzameld",
+    "noSkippedChests": "Geen overgeslagen kisten",
+    "more": "+{{count}} meer",
+    "corridorNearby": "Een verborgen gang is vlakbij",
+    "corridorOnFloor": "Een verborgen gang wacht op deze verdieping",
+    "hunting": "Op jacht naar {{symbol}}",
+    "huntStop": "Stop",
+    "huntHint": "Selecteer een niet-verzamelde hiëroglief en jaag erop met het kompas",
+    "huntAction": "Jaag op {{symbol}}",
+    "lookingFor": "Op zoek naar {{symbol}}",
+    "access": {
+      "open": "Niets bekends houdt deze tegen",
+      "locked": "Op slot — je hebt de sleutel hiervoor nog niet",
+      "hidden": "In een verborgen gang — hiervoor is de gangendetector nodig",
+      "unknown": "Misschien nog niet te bereiken — het ligt in een tombe of staat te koop"
+    },
+    "corridorNoneNearby": "Geen verborgen gang in de buurt",
+    "corridorNoneOnFloor": "Geen verborgen gang op deze verdieping",
+    "corridorOtherFloor": "Een verborgen gang wacht op een andere verdieping",
+    "corridorNoneInPyramid": "Nog geen verborgen gangen gevonden in deze piramide",
+    "title": "Detector",
+    "band": {
+      "none": "Niets gevonden",
+      "pyramid": "Iets in deze piramide",
+      "floor": "Iets op deze verdieping",
+      "near": "Iets dichtbij"
+    }
+  },
+  "keys": {
+    "blue": "Blauwe sleutel",
+    "red": "Rode sleutel",
+    "green": "Groene sleutel",
+    "yellow": "Gele sleutel",
+    "purple": "Paarse sleutel",
+    "bundle": "Een bos sleutels",
+    "foundDescription": "Hij opent de deuren met deze kleur, op deze verdieping.",
+    "heldTitle": "{{key}} — in bezit",
+    "neededTitle": "{{key}} — nog nodig"
+  },
+  "balance": {
+    "rules": {
+      "tap": "Tik hieronder op een teken en dan op een getal. Tik nog een keer op dat getal om het weg te halen.",
+      "same": "Een teken weegt op elke weegschaal evenveel.",
+      "cancel": "Haal aan beide kanten hetzelfde weg en een weegschaal blijft kloppen. Tik op een gemarkeerd stuk: wat overblijft komt als nieuwe rij eronder.",
+      "swap": "Tik op een teken waar niets gelijks tegenover ligt, en dan op een rij waar dat teken alleen staat, om het te ruilen voor wat die rij waard is."
+    },
+    "hint": {
+      "mistake": "Een van de gewichten die je gaf laat een weegschaal doorslaan. Haal het weg en kijk opnieuw.",
+      "alone": "In de opgelichte rij is {{glyph}} het enige stuk zonder getal erop. Reken uit wat het weegt.",
+      "equalShares": "In de opgelichte rij staan alleen maar {{glyph}} tegenover een getal. Verdeel dat getal eerlijk.",
+      "difference": "De twee opgelichte rijen zijn hetzelfde, behalve {{glyph}}. Vergelijk ze.",
+      "cancelGlyph": "Aan beide kanten van de opgelichte rij ligt {{glyph}}. Tik er één aan om hem aan beide kanten weg te halen — de rij blijft kloppen.",
+      "cancelStones": "Aan beide kanten van de opgelichte rij liggen gewone getallen. Tik er één aan om aan beide kanten evenveel weg te halen.",
+      "swap": "Eén opgelichte rij zegt wat één {{glyph}} in zijn eentje waard is. Tik op de {{glyph}} in de andere opgelichte rij en dan op die rij."
+    },
+    "swap": {
+      "pick": "Tik op een opgelichte rij om deze {{glyph}} te ruilen voor wat die rij zegt dat hij waard is.",
+      "none": "Niets hier zegt wat één {{glyph}} in zijn eentje waard is, en er ligt niets gelijks tegenover."
+    },
+    "goal": {
+      "default": "Elk teken heeft een gewicht, en elke weegschaal is in balans.",
+      "weighing": "Elk teken vindt zijn gewicht, en elke weegschaal komt in evenwicht."
+    },
+    "name": {
+      "default": "Weegschaal",
+      "weighing": "Het Wegen van het Hart"
+    }
+  },
+  "sumplete": {
+    "rules": {
+      "tap": "Tik één keer om een getal weg te strepen, nog een keer om het te bewaren, nog een keer om het leeg te maken.",
+      "totals": "Het kleine getal onder elk doel is wat die lijn nu optelt."
+    },
+    "hint": {
+      "mistake": "Een van de tekens hier klopt niet. Maak het ongedaan en kijk opnieuw.",
+      "tooBig": {
+        "row": "Deze rij heeft nog {{deficit}} nodig. {{value}} is groter dan dat, dus die kan niet blijven.",
+        "col": "Deze kolom heeft nog {{deficit}} nodig. {{value}} is groter dan dat, dus die kan niet blijven."
+      },
+      "allStrike": {
+        "row": "De getallen die in deze rij blijven staan tellen al op tot het doel, dus al het andere moet weg.",
+        "col": "De getallen die in deze kolom blijven staan tellen al op tot het doel, dus al het andere moet weg."
+      },
+      "allKeep": {
+        "row": "Deze rij telt al op tot het doel — markeer deze getallen als blijvend, dan kun je de kolommen erdoorheen uitrekenen.",
+        "col": "Deze kolom telt al op tot het doel — markeer deze getallen als blijvend, dan kun je de rijen erdoorheen uitrekenen."
+      },
+      "parityKeep": {
+        "row": "Deze rij heeft nog {{deficit}} nodig, een oneven getal. {{value}} is het enige oneven getal dat over is, dus die moet blijven.",
+        "col": "Deze kolom heeft nog {{deficit}} nodig, een oneven getal. {{value}} is het enige oneven getal dat over is, dus die moet blijven."
+      },
+      "parityStrike": {
+        "row": "Deze rij heeft nog {{deficit}} nodig, een even getal. {{value}} is het enige oneven getal dat over is, dus die moet weg.",
+        "col": "Deze kolom heeft nog {{deficit}} nodig, een even getal. {{value}} is het enige oneven getal dat over is, dus die moet weg."
+      },
+      "onlyCombination": {
+        "row": "Maar één set getallen in deze rij telt op tot {{deficit}}.",
+        "col": "Maar één set getallen in deze kolom telt op tot {{deficit}}."
+      },
+      "inEveryCombinationKeep": {
+        "row": "Zonder {{value}} maakt geen enkele combinatie van de andere getallen in deze rij {{deficit}} — dus die moet blijven.",
+        "col": "Zonder {{value}} maakt geen enkele combinatie van de andere getallen in deze kolom {{deficit}} — dus die moet blijven."
+      },
+      "inEveryCombinationStrike": {
+        "row": "Houd je {{value}}, dan heeft deze rij nog {{remaining}} nodig, en dat maak je met de andere getallen hier niet — dus die moet weg.",
+        "col": "Houd je {{value}}, dan heeft deze kolom nog {{remaining}} nodig, en dat maak je met de andere getallen hier niet — dus die moet weg."
+      },
+      "tooBig.row": "Deze rij heeft nog {{deficit}} nodig, en {{value}} is groter dan dat.",
+      "tooBig.col": "Deze kolom heeft nog {{deficit}} nodig, en {{value}} is groter dan dat.",
+      "allStrike.row": "De getallen die in deze rij blijven staan tellen al op tot het doel.",
+      "allStrike.col": "De getallen die in deze kolom blijven staan tellen al op tot het doel.",
+      "allKeep.row": "Deze rij telt al op tot het doel, dus daarna kun je de kolommen erdoorheen uitrekenen.",
+      "allKeep.col": "Deze kolom telt al op tot het doel, dus daarna kun je de rijen erdoorheen uitrekenen.",
+      "parityKeep.row": "Deze rij heeft nog {{deficit}} nodig, een oneven getal, en {{value}} is het enige oneven getal dat over is.",
+      "parityKeep.col": "Deze kolom heeft nog {{deficit}} nodig, een oneven getal, en {{value}} is het enige oneven getal dat over is.",
+      "parityStrike.row": "Deze rij heeft nog {{deficit}} nodig, een even getal, en {{value}} is het enige oneven getal dat over is.",
+      "parityStrike.col": "Deze kolom heeft nog {{deficit}} nodig, een even getal, en {{value}} is het enige oneven getal dat over is.",
+      "onlyCombination.row": "Maar één set getallen in deze rij telt op tot {{deficit}}.",
+      "onlyCombination.col": "Maar één set getallen in deze kolom telt op tot {{deficit}}.",
+      "inEveryCombinationKeep.row": "Zonder {{value}} maakt geen enkele combinatie van de andere getallen in deze rij {{deficit}}.",
+      "inEveryCombinationKeep.col": "Zonder {{value}} maakt geen enkele combinatie van de andere getallen in deze kolom {{deficit}}.",
+      "inEveryCombinationStrike.row": "Houd je {{value}}, dan heeft deze rij nog {{remaining}} nodig, en dat maak je met de andere getallen hier niet.",
+      "inEveryCombinationStrike.col": "Houd je {{value}}, dan heeft deze kolom nog {{remaining}} nodig, en dat maak je met de andere getallen hier niet.",
+      "action": {
+        "strike_one": "Streep het gearceerde getal door.",
+        "strike_other": "Streep de gearceerde getallen door.",
+        "keep_one": "Markeer het gearceerde getal als blijvend.",
+        "keep_other": "Markeer de gearceerde getallen als blijvend."
+      }
+    },
+    "goal": "Elke rij en elke kolom telt op tot het getal ernaast.",
+    "name": "De Telling"
+  },
+  "futoshiki": {
+    "rules": {
+      "signs": "Een teken tussen twee vakjes wijst naar het kleinste getal van de twee.",
+      "enter": "Tik op een vakje en dan op een getal. Hetzelfde getal nog een keer haalt het er weer uit.",
+      "notes": "Zet het potlood aan om op te schrijven welke getallen nog in een vakje kunnen. Met ongedaan maken neem je je laatste zet terug."
+    },
+    "hint": {
+      "mistake": {
+        "value": "Een van de getallen hier klopt niet. Haal het eruit en kijk opnieuw.",
+        "note": "De notities in dit vakje sluiten juist het getal uit dat hier hoort. Maak ze leeg en begin er opnieuw aan."
+      },
+      "nakedSingle": "Elk ander getal is al bezet in deze rij, deze kolom of door de tekens — alleen {{value}} blijft over voor dit vakje.",
+      "hiddenSingle": {
+        "row": "{{value}} past in geen enkel ander vakje van deze rij, dus hier hoort hij.",
+        "col": "{{value}} past in geen enkel ander vakje van deze kolom, dus hier hoort hij."
+      },
+      "signBound": {
+        "high": "Een teken hier wijst weg naar een groter getal, dus dit vakje kan geen {{value}} zijn.",
+        "low": "Een teken hier wijst naar dit vakje, dus iets moet kleiner zijn — het kan geen {{value}} zijn."
+      },
+      "signVsValue": {
+        "less": "Het teken zegt dat dit vakje kleiner is dan zijn buur, en die buur heeft {{value}}.",
+        "greater": "Het teken zegt dat dit vakje groter is dan zijn buur, en die buur heeft {{value}}."
+      },
+      "signChain": {
+        "high": "Volg de tekens vanaf dit vakje: {{chain}} vakjes achter elkaar moeten steeds groter zijn, dus dit vakje kan niet boven {{bound}} uitkomen.",
+        "low": "Volg de tekens naar dit vakje toe: {{chain}} vakjes achter elkaar moeten steeds kleiner zijn, dus dit vakje kan niet onder {{bound}} komen."
+      },
+      "signPair": {
+        "less": "Het grootste getal dat de buur aan de andere kant van het teken nog kan zijn is {{value}}, en dit vakje moet daaronder blijven.",
+        "greater": "Het kleinste getal dat de buur aan de andere kant van het teken nog kan zijn is {{value}}, en dit vakje moet daarboven blijven."
+      },
+      "nakedPair": {
+        "row": "Deze twee vakjes kunnen alleen {{first}} en {{second}} zijn, in de ene of de andere volgorde, dus geen ander vakje in deze rij kan er een van hebben.",
+        "col": "Deze twee vakjes kunnen alleen {{first}} en {{second}} zijn, in de ene of de andere volgorde, dus geen ander vakje in deze kolom kan er een van hebben."
+      },
+      "hiddenPair": {
+        "row": "In deze rij passen {{first}} en {{second}} nergens anders dan in deze twee vakjes, dus er kan niets anders in.",
+        "col": "In deze kolom passen {{first}} en {{second}} nergens anders dan in deze twee vakjes, dus er kan niets anders in."
+      },
+      "xWing": {
+        "row": "{{value}} past in elk van deze twee rijen maar in twee vakjes, en die staan in dezelfde kolommen. Hoe het ook uitpakt, beide kolommen zijn bezet — dus {{value}} kan nergens anders in die kolommen.",
+        "col": "{{value}} past in elk van deze twee kolommen maar in twee vakjes, en die staan in dezelfde rijen. Hoe het ook uitpakt, beide rijen zijn bezet — dus {{value}} kan nergens anders in die rijen."
+      },
+      "nakedTriple": {
+        "row": "Deze drie vakjes hebben samen alleen {{first}}, {{second}} en {{third}}, dus geen ander vakje in deze rij kan er een van hebben.",
+        "col": "Deze drie vakjes hebben samen alleen {{first}}, {{second}} en {{third}}, dus geen ander vakje in deze kolom kan er een van hebben."
+      },
+      "hiddenTriple": {
+        "row": "In deze rij passen {{first}}, {{second}} en {{third}} nergens anders dan in deze drie vakjes, dus er kan niets anders in.",
+        "col": "In deze kolom passen {{first}}, {{second}} en {{third}} nergens anders dan in deze drie vakjes, dus er kan niets anders in."
+      }
+    },
+    "goal": "Elke rij en elke kolom laat elk getal precies één keer zien.",
+    "name": "Groter en Kleiner"
+  },
+  "lightbeam": {
+    "rules": {
+      "mirrors": "Een spiegel buigt het licht langs elk van zijn kanten. De streepjes eromheen laten zien hoe hij nog kan liggen: de meeste geven een kwartslag, sommige blijven daar net onder en sturen het licht schuin weg.",
+      "walls": "Een blok steen slokt het licht op. De rand van het bord ook.",
+      "tap": "Tik op een stuk om het te veranderen: een spiegel draait, een schuivend stuk gaat naar de volgende plek. Een witte rand betekent dat jij het mag verzetten; al het andere hoort bij de puzzel.",
+      "nodes": "Sommige stenen zitten vast aan een contactpunt in de vloer; daar helpt geen enkele tik tegen. Stuur het licht over het contactpunt en de steen schuift opzij."
+    },
+    "hint": {
+      "entryRun": "Begin waar het licht al komt: het loopt recht vanaf de schijf tot het eerste stuk dat je kunt veranderen. Die vakjes dragen het licht, wat je ook doet.",
+      "exitRun": "Kijk naar het schrijn. Maar één kant ervan kan verlicht worden — elke andere weg erheen is dicht of kijkt het bord uit — dus het licht moet langs die lijn aankomen.",
+      "wiringFires": {
+        "one": "Het licht moet onderweg over dat contactpunt — dat heb je al uitgedokterd. Zodra het daar overheen gaat, trekt de steen waaraan het vastzit opzij, en ligt het pad erachter open.",
+        "all": "Die steen zit aan meer dan één contactpunt vast en schuift pas opzij als het licht over allemaal is gegaan. Zoek een route die ze alle raakt."
+      },
+      "deadEnd": {
+        "wall": "Zo gezet loopt het licht recht in de steen, en er is niets meer dat het kan redden. Dus zo kan het niet staan.",
+        "disc": "Zo gezet stuurt de spiegel het licht terug waar het vandaan kwam, tot in de schijf zelf. Dus zo kan het niet staan.",
+        "edge": "Zo gezet loopt het licht het bord uit, en er is niets meer dat het kan opvangen. Dus zo kan het niet staan.",
+        "loop": "Zo gezet komt het licht nergens — het blijft eeuwig rondgaan. Dus zo kan het niet staan."
+      },
+      "feedsExit": {
+        "wall": "Werk terug vanaf het schrijn. Zo gezet kan niets het licht over de enige lijn erheen brengen — het sterft onderweg in de steen.",
+        "disc": "Werk terug vanaf het schrijn. Zo gezet zou het licht uit de donkere achterkant van de schijf moeten komen, en daar komt geen licht uit.",
+        "edge": "Werk terug vanaf het schrijn. Zo gezet zou het licht van buiten het bord moeten komen om er te kunnen zijn.",
+        "loop": "Werk terug vanaf het schrijn. Zo gezet gaat het licht dat er zou moeten komen alleen eeuwig rond."
+      },
+      "wiringDead": "Wat je ook doet, het licht kan die aansluiting nooit bereiken — dus de steen waaraan hij vastzit blijft precies waar hij is, en je kunt het pad er zo langs lezen.",
+      "neverReached": "Laat deze staan. Het licht kan er niet bij komen, hoe de rest ook staat, dus wat je ermee doet maakt niets uit.",
+      "onlySurvivor": "Probeer elke stand van deze om de beurt: op één na laten ze het schrijn allemaal donker. Die ene is het antwoord."
+    },
+    "goal": "Het zonlicht loopt van de schijf naar het altaar.",
+    "name": "Lichtstraal"
+  },
+  "eclipse": {
+    "rules": {
+      "triple": "Drie dezelfde op een rij mag nooit, niet horizontaal en niet verticaal.",
+      "copies": "Geen twee rijen mogen hetzelfde zijn, en geen twee kolommen.",
+      "signs": "Een teken tussen twee vakjes zegt hoe ze zich verhouden: = voor gelijk, × voor verschillend.",
+      "enter": "Tik op een vakje voor een zon, tik nog eens voor een maan, en nog eens om het leeg te maken."
+    },
+    "hint": {
+      "mistake": "Een van deze tekens kan niet goed zijn.",
+      "sign.same": "= betekent gelijk.",
+      "sign.different": "× betekent verschillend.",
+      "noTriple.pair": "Al twee {{mark}}, en drie op een rij mag nooit.",
+      "noTriple.sandwich": "{{mark}} aan beide kanten, en drie op een rij mag nooit.",
+      "signPair": "Deze twee zijn gelijk, en die {{mark}} staat ernaast.",
+      "lineCount": "Deze lijn heeft zijn {{count}} {{mark}} al.",
+      "noCopy": "Andersom wordt dit een kopie van de opgelichte lijn.",
+      "linePairing.sameNoRoom": "Nog maar {{count}} {{mark}} over, en deze twee zijn gelijk.",
+      "linePairing.differentTakesOne": "De ×-paren gebruiken de {{mark}} op waar deze lijn ruimte voor heeft.",
+      "loneMark": "Nog één {{mark}} te plaatsen, en maar één vakje houdt drie {{other}} uit elkaar.",
+      "squeeze.triple": "{{mark}} hier zou de rest {{other}} maken — drie op een rij.",
+      "squeeze.sign": "{{mark}} hier zou de rest {{other}} maken — een teken klopt niet meer.",
+      "squeeze.copy": "{{mark}} hier zou de rest {{other}} maken — de lijn wordt een kopie.",
+      "action": {
+        "fill_one": "Zet {{mark}} in het gearceerde vakje.",
+        "fill_other": "Zet {{mark}} in de gearceerde vakjes.",
+        "fillMixed": "Vul de gearceerde vakjes in — de enige manier die klopt."
+      }
+    },
+    "goal": "Elk vakje heeft een zon of een maan, en elke lijn heeft er evenveel van de een als van de ander.",
+    "name": "Zon en Maan"
+  },
+  "constellation": {
+    "rules": {
+      "default": {
+        "straight": "Lichtlijnen lopen recht, horizontaal of verticaal, van de ene ster naar de volgende.",
+        "pair": "Tussen twee sterren passen maximaal twee lijnen.",
+        "cross": "Lijnen kruisen elkaar nooit, en lopen nooit door een ster heen.",
+        "enter": "Sleep van een ster naar zijn buur voor een lijn, nog eens voor een dubbele, en nog eens om hem weg te halen."
+      },
+      "causeway": {
+        "straight": "Sleepwegen lopen recht, horizontaal of verticaal, van de ene plaats naar de volgende.",
+        "pair": "Tussen twee plaatsen passen maximaal twee wegen.",
+        "cross": "Wegen kruisen elkaar nooit, en lopen nooit door een plaats heen.",
+        "enter": "Sleep van een plaats naar zijn buur om een weg aan te leggen, nog eens om hem te verdubbelen, en nog eens om hem op te breken."
+      },
+      "irrigation": {
+        "straight": "Kanalen lopen recht, horizontaal of verticaal, van het ene bekken naar het volgende.",
+        "pair": "Tussen twee bekkens passen maximaal twee kanalen.",
+        "cross": "Kanalen kruisen elkaar nooit, en lopen nooit door een bekken heen.",
+        "enter": "Sleep van een bekken naar zijn buur om een kanaal te graven, nog eens om het te verbreden, en nog eens om het te dempen."
+      },
+      "ceiling": {
+        "straight": "Snoeren lopen recht, horizontaal of verticaal, van de ene ster naar de volgende.",
+        "pair": "Tussen twee sterren passen maximaal twee snoeren.",
+        "cross": "Snoeren kruisen elkaar nooit, en lopen nooit door een ster heen.",
+        "enter": "Sleep van een ster naar zijn buur om een snoer te leggen, nog eens om het te verdubbelen, en nog eens om het weg te halen."
+      }
+    },
+    "hint": {
+      "default": {
+        "mistake": "Een van deze lijnen kan niet goed zijn.",
+        "capacity": "{{count}} lijnen, en net genoeg uitwegen.",
+        "settled": "Deze {{count}} heeft zijn lijnen.",
+        "soleWayOut": "Nog maar één uitweg over, en nog {{count}} te tekenen.",
+        "crossed": "Een lijn daar zou deze lijn kruisen.",
+        "atLeastOne": "{{count}} lijnen, en de andere uitwegen kunnen ze niet samen dragen.",
+        "twinBlock.single": "Die twee verbinden maakt een sterrenbeeld van twee.",
+        "twinBlock.double": "Een tweede lijn daar maakt een sterrenbeeld van twee.",
+        "isolation": "Die lijn sluit deze {{count}} sterren af van de rest.",
+        "action": {
+          "draw_one": "Teken de gemarkeerde lijn.",
+          "draw_other": "Teken de gemarkeerde lijnen.",
+          "refuse_one": "De gemarkeerde lijn blijft ongetekend.",
+          "refuse_other": "De gemarkeerde lijnen blijven ongetekend.",
+          "refuseDouble": "Eén lijn daar, en geen tweede."
+        }
+      },
+      "causeway": {
+        "mistake": "Een van deze wegen kan niet goed zijn.",
+        "capacity": "{{count}} wegen, en net genoeg uitwegen.",
+        "settled": "Deze {{count}} heeft zijn wegen.",
+        "soleWayOut": "Nog maar één uitweg over, en nog {{count}} aan te leggen.",
+        "crossed": "Een weg daar zou deze weg kruisen.",
+        "atLeastOne": "{{count}} wegen, en de andere uitwegen kunnen ze niet samen dragen.",
+        "twinBlock.single": "Die twee verbinden maakt een wegennet van twee.",
+        "twinBlock.double": "Een tweede weg daar maakt een wegennet van twee.",
+        "isolation": "Die weg sluit deze {{count}} plaatsen af van de rest.",
+        "action": {
+          "draw_one": "Leg de gemarkeerde weg aan.",
+          "draw_other": "Leg de gemarkeerde wegen aan.",
+          "refuse_one": "De gemarkeerde weg blijft onaangelegd.",
+          "refuse_other": "De gemarkeerde wegen blijven onaangelegd.",
+          "refuseDouble": "Eén weg daar, en geen tweede."
+        }
+      },
+      "irrigation": {
+        "mistake": "Een van deze kanalen kan niet goed zijn.",
+        "capacity": "{{count}} kanalen, en net genoeg uitwegen.",
+        "settled": "Deze {{count}} heeft zijn kanalen.",
+        "soleWayOut": "Nog maar één uitweg over, en nog {{count}} te graven.",
+        "crossed": "Een kanaal daar zou dit kanaal kruisen.",
+        "atLeastOne": "{{count}} kanalen, en de andere uitwegen kunnen ze niet samen dragen.",
+        "twinBlock.single": "Die twee verbinden maakt een waterwerk van twee.",
+        "twinBlock.double": "Een tweede kanaal daar maakt een waterwerk van twee.",
+        "isolation": "Dat kanaal sluit deze {{count}} bekkens af van de rest.",
+        "action": {
+          "draw_one": "Graaf het gemarkeerde kanaal.",
+          "draw_other": "Graaf de gemarkeerde kanalen.",
+          "refuse_one": "Het gemarkeerde kanaal blijft ongegraven.",
+          "refuse_other": "De gemarkeerde kanalen blijven ongegraven.",
+          "refuseDouble": "Eén kanaal daar, en geen tweede."
+        }
+      },
+      "ceiling": {
+        "mistake": "Een van deze snoeren kan niet goed zijn.",
+        "capacity": "{{count}} snoeren, en net genoeg uitwegen.",
+        "settled": "Deze {{count}} heeft zijn snoeren.",
+        "soleWayOut": "Nog maar één uitweg over, en nog {{count}} te leggen.",
+        "crossed": "Een snoer daar zou dit snoer kruisen.",
+        "atLeastOne": "{{count}} snoeren, en de andere uitwegen kunnen ze niet samen dragen.",
+        "twinBlock.single": "Die twee verbinden maakt een beschilderde hemel van twee.",
+        "twinBlock.double": "Een tweede snoer daar maakt een beschilderde hemel van twee.",
+        "isolation": "Dat snoer sluit deze {{count}} sterren af van de rest.",
+        "action": {
+          "draw_one": "Leg het gemarkeerde snoer.",
+          "draw_other": "Leg de gemarkeerde snoeren.",
+          "refuse_one": "Het gemarkeerde snoer blijft ongelegd.",
+          "refuse_other": "De gemarkeerde snoeren blijven ongelegd.",
+          "refuseDouble": "Eén snoer daar, en geen tweede."
+        }
+      }
+    },
+    "goal": {
+      "default": "Elke ster hangt in één sterrenbeeld, verbonden met zoveel lichtlijnen als zijn getal zegt.",
+      "causeway": "Elke plaats ligt in één wegennet, ontsloten door zoveel sleepwegen als zijn getal zegt.",
+      "irrigation": "Elk bekken hoort bij één waterwerk, gevoed door zoveel kanalen als zijn getal zegt.",
+      "ceiling": "Elke ster hoort bij één beschilderde hemel, verbonden door zoveel gouden snoeren als zijn getal zegt."
+    },
+    "name": {
+      "default": "Sterrenkaart",
+      "causeway": "Sleepweg",
+      "irrigation": "Waterwerk",
+      "ceiling": "Beschilderd Plafond"
+    }
+  },
+  "starBattle": {
+    "rules": {
+      "default": {
+        "touch": "Twee sterren mogen elkaar nooit raken — ook niet met een punt.",
+        "enter": "Tik een vakje om het af te strepen, tik weer voor een ster, en nog eens om het te wissen."
+      },
+      "fields": {
+        "touch": "Twee boerderijen mogen elkaar nooit raken — ook niet met een punt. Zo dicht bij elkaar delen ze één put.",
+        "enter": "Tik een akker om die af te strepen, tik weer voor een boerderij, en nog eens om het te wissen."
+      }
+    },
+    "hint": {
+      "default": {
+        "mistake": "Dit teken kan niet kloppen.",
+        "touch": "Hier een {{token}}, en niets mag aan een {{token}} raken.",
+        "groupFull.row_one": "Deze rij heeft zijn {{token}} al.",
+        "groupFull.row_other": "Deze rij heeft zijn {{count}} {{token}} al.",
+        "groupFull.col_one": "Deze kolom heeft zijn {{token}} al.",
+        "groupFull.col_other": "Deze kolom heeft zijn {{count}} {{token}} al.",
+        "groupFull.region_one": "Dit gebied heeft zijn {{token}} al.",
+        "groupFull.region_other": "Dit gebied heeft zijn {{count}} {{token}} al.",
+        "groupTight.row_one": "Deze rij heeft nog één vakje over.",
+        "groupTight.row_other": "Deze rij heeft nog {{count}} vakjes over.",
+        "groupTight.col_one": "Deze kolom heeft nog één vakje over.",
+        "groupTight.col_other": "Deze kolom heeft nog {{count}} vakjes over.",
+        "groupTight.region_one": "Dit gebied heeft nog één vakje over.",
+        "groupTight.region_other": "Dit gebied heeft nog {{count}} vakjes over.",
+        "onlyWay.row_one": "Er is maar één manier om een {{token}} in deze rij te zetten.",
+        "onlyWay.row_other": "Er is maar één manier om {{count}} {{token}} in deze rij te zetten.",
+        "onlyWay.col_one": "Er is maar één manier om een {{token}} in deze kolom te zetten.",
+        "onlyWay.col_other": "Er is maar één manier om {{count}} {{token}} in deze kolom te zetten.",
+        "onlyWay.region_one": "Er is maar één manier om een {{token}} in dit gebied te zetten.",
+        "onlyWay.region_other": "Er is maar één manier om {{count}} {{token}} in dit gebied te zetten.",
+        "everyWay.row_one": "Hoe je deze rij ook invult, de {{token}} staat hier.",
+        "everyWay.row_other": "Hoe je deze rij ook invult, één van de {{count}} {{token}} staat hier.",
+        "everyWay.col_one": "Hoe je deze kolom ook invult, de {{token}} staat hier.",
+        "everyWay.col_other": "Hoe je deze kolom ook invult, één van de {{count}} {{token}} staat hier.",
+        "everyWay.region_one": "Hoe je dit gebied ook invult, de {{token}} staat hier.",
+        "everyWay.region_other": "Hoe je dit gebied ook invult, één van de {{count}} {{token}} staat hier.",
+        "regionLine.row_one": "De {{token}} van het gemarkeerde gebied moet uit die rij komen.",
+        "regionLine.row_other": "De {{count}} {{token}} van het gemarkeerde gebied moeten uit die rij komen.",
+        "regionLine.col_one": "De {{token}} van het gemarkeerde gebied moet uit die kolom komen.",
+        "regionLine.col_other": "De {{count}} {{token}} van het gemarkeerde gebied moeten uit die kolom komen.",
+        "lineRegion.row_one": "De {{token}} van die rij hoort bij het gemarkeerde gebied.",
+        "lineRegion.row_other": "De {{count}} {{token}} van die rij horen bij het gemarkeerde gebied.",
+        "lineRegion.col_one": "De {{token}} van die kolom hoort bij het gemarkeerde gebied.",
+        "lineRegion.col_other": "De {{count}} {{token}} van die kolom horen bij het gemarkeerde gebied.",
+        "spanning.toRows": "De gemarkeerde gebieden vullen samen die {{count}} rijen.",
+        "spanning.toCols": "De gemarkeerde gebieden vullen samen die {{count}} kolommen.",
+        "spanning.fromRows": "De gemarkeerde rijen kunnen hun {{count}} {{token}} alleen uit die gebieden halen.",
+        "spanning.fromCols": "De gemarkeerde kolommen kunnen hun {{count}} {{token}} alleen uit die gebieden halen.",
+        "wouldStrand.row": "Met een {{token}} hier houdt de gemarkeerde rij geen plek meer over.",
+        "wouldStrand.col": "Met een {{token}} hier houdt de gemarkeerde kolom geen plek meer over.",
+        "wouldStrand.region": "Met een {{token}} hier houdt het gemarkeerde gebied geen plek meer over.",
+        "action": {
+          "ruleOut_one": "Streep het gearceerde vakje af.",
+          "ruleOut_other": "Streep de gearceerde vakjes af.",
+          "place_one": "Zet een {{token}} in het gearceerde vakje.",
+          "place_other": "Zet een {{token}} in elk gearceerd vakje."
+        }
+      },
+      "fields": {
+        "mistake": "Dit teken kan niet kloppen.",
+        "touch": "Hier een {{token}}, en geen akker ernaast kan er nog een dragen.",
+        "groupFull.row_one": "Deze rij is al bewerkt.",
+        "groupFull.row_other": "Deze rij heeft zijn {{count}} {{token}} al.",
+        "groupFull.col_one": "Deze kolom is al bewerkt.",
+        "groupFull.col_other": "Deze kolom heeft zijn {{count}} {{token}} al.",
+        "groupFull.region_one": "Dit stuk land is al bewerkt.",
+        "groupFull.region_other": "Dit stuk land heeft zijn {{count}} {{token}} al.",
+        "groupTight.row_one": "Deze rij heeft nog één akker over.",
+        "groupTight.row_other": "Deze rij heeft nog {{count}} akkers over.",
+        "groupTight.col_one": "Deze kolom heeft nog één akker over.",
+        "groupTight.col_other": "Deze kolom heeft nog {{count}} akkers over.",
+        "groupTight.region_one": "Dit stuk land heeft nog één akker over.",
+        "groupTight.region_other": "Dit stuk land heeft nog {{count}} akkers over.",
+        "onlyWay.row_one": "Er is nog maar één akker in deze rij om op te bouwen.",
+        "onlyWay.row_other": "Er is maar één manier om {{count}} {{token}} in deze rij te zetten.",
+        "onlyWay.col_one": "Er is nog maar één akker in deze kolom om op te bouwen.",
+        "onlyWay.col_other": "Er is maar één manier om {{count}} {{token}} in deze kolom te zetten.",
+        "onlyWay.region_one": "Er is nog maar één akker op dit stuk land om op te bouwen.",
+        "onlyWay.region_other": "Er is maar één manier om {{count}} {{token}} op dit stuk land te zetten.",
+        "everyWay.row_one": "Hoe deze rij ook bewerkt wordt, de {{token}} staat hier.",
+        "everyWay.row_other": "Hoe deze rij ook bewerkt wordt, één van de {{count}} {{token}} staat hier.",
+        "everyWay.col_one": "Hoe deze kolom ook bewerkt wordt, de {{token}} staat hier.",
+        "everyWay.col_other": "Hoe deze kolom ook bewerkt wordt, één van de {{count}} {{token}} staat hier.",
+        "everyWay.region_one": "Hoe dit stuk land ook bewerkt wordt, de {{token}} staat hier.",
+        "everyWay.region_other": "Hoe dit stuk land ook bewerkt wordt, één van de {{count}} {{token}} staat hier.",
+        "regionLine.row_one": "De {{token}} van het gemarkeerde stuk land moet uit die rij komen.",
+        "regionLine.row_other": "De {{count}} {{token}} van het gemarkeerde stuk land moeten uit die rij komen.",
+        "regionLine.col_one": "De {{token}} van het gemarkeerde stuk land moet uit die kolom komen.",
+        "regionLine.col_other": "De {{count}} {{token}} van het gemarkeerde stuk land moeten uit die kolom komen.",
+        "lineRegion.row_one": "De {{token}} van die rij hoort bij het gemarkeerde stuk land.",
+        "lineRegion.row_other": "De {{count}} {{token}} van die rij horen bij het gemarkeerde stuk land.",
+        "lineRegion.col_one": "De {{token}} van die kolom hoort bij het gemarkeerde stuk land.",
+        "lineRegion.col_other": "De {{count}} {{token}} van die kolom horen bij het gemarkeerde stuk land.",
+        "spanning.toRows": "De gemarkeerde stukken land vullen samen die {{count}} rijen.",
+        "spanning.toCols": "De gemarkeerde stukken land vullen samen die {{count}} kolommen.",
+        "spanning.fromRows": "De gemarkeerde rijen kunnen hun {{count}} {{token}} alleen van die stukken land halen.",
+        "spanning.fromCols": "De gemarkeerde kolommen kunnen hun {{count}} {{token}} alleen van die stukken land halen.",
+        "wouldStrand.row": "Met een {{token}} hier houdt de gemarkeerde rij geen plek meer over om te bouwen.",
+        "wouldStrand.col": "Met een {{token}} hier houdt de gemarkeerde kolom geen plek meer over om te bouwen.",
+        "wouldStrand.region": "Met een {{token}} hier houdt het gemarkeerde stuk land geen plek meer over om te bouwen.",
+        "action": {
+          "ruleOut_one": "Streep de gearceerde akker af.",
+          "ruleOut_other": "Streep de gearceerde akkers af.",
+          "place_one": "Zet een {{token}} op de gearceerde akker.",
+          "place_other": "Zet een {{token}} op elke gearceerde akker."
+        }
+      }
+    },
+    "quota": {
+      "default": "Per rij, kolom en gebied",
+      "fields": "Per rij, kolom en stuk land"
+    },
+    "goal": {
+      "default_one": "Elke rij, elke kolom en elk gebied heeft precies één ster.",
+      "default_other": "Elke rij, elke kolom en elk gebied heeft precies {{count}} sterren.",
+      "fields_one": "Elke rij, elke kolom en elk stuk land heeft precies één boerderij.",
+      "fields_other": "Elke rij, elke kolom en elk stuk land heeft precies {{count}} boerderijen."
+    },
+    "name": {
+      "default": "Sterren Apart",
+      "fields": "Boerderijen",
+      "twinDefault": "Tweelingsterren",
+      "twinFields": "Dubbele Boerderijen"
+    }
+  },
+  "rushHour": {
+    "name": {
+      "default": "De Blokkade",
+      "market": "De Versperde Steeg"
+    },
+    "goal": {
+      "default": "Krijg je eigen blok naar de opening rechts.",
+      "market": "Werk je eigen slee door de opening aan het eind van de straat naar buiten."
+    },
+    "rules": {
+      "default": {
+        "lanes": "Een blok schuift alleen over zijn eigen baan — nooit zijwaarts, nooit van het bord af.",
+        "shove": "Sleep een blok om het te duwen. Het stopt waar iets in de weg staat."
+      },
+      "market": {
+        "lanes": "Een slee schuift alleen over de baan waarin hij staat — nooit zijwaarts, nooit de straat uit.",
+        "shove": "Sleep een slee om hem te duwen. Hij stopt waar iets in de weg staat."
+      }
+    },
+    "hint": {
+      "default": {
+        "drive": "Zo ver is de weg vrij.",
+        "back": "Vooruit gaat het niet. Trek die van jou eerst terug.",
+        "clear": "Dat blok staat in jouw baan.",
+        "room": "Er kan niets bewegen totdat dat blok wijkt.",
+        "push": {
+          "left": "Duw het naar links, tot aan de ring.",
+          "right": "Duw het naar rechts, tot aan de ring.",
+          "up": "Duw het naar boven, tot aan de ring.",
+          "down": "Duw het naar beneden, tot aan de ring."
+        }
+      },
+      "market": {
+        "drive": "Zo ver is de baan voor je vrij.",
+        "back": "Vooruit gaat het niet. Trek je eigen slee eerst terug.",
+        "clear": "Die lading staat in de baan waardoor jij weg moet.",
+        "room": "Er kan niets wijken zolang die daar staat.",
+        "push": {
+          "left": "Duw hem naar links, tot aan de ring.",
+          "right": "Duw hem naar rechts, tot aan de ring.",
+          "up": "Duw hem de straat op, tot aan de ring.",
+          "down": "Duw hem de straat af, tot aan de ring."
+        }
+      }
+    }
+  },
+  "hidato": {
+    "rules": {
+      "default": {
+        "given": "De getallen die al in de raat staan horen bij de puzzel — die blijven staan.",
+        "enter": "Tik op een getal om de reeks daar op te pakken en tik dan op een leeg vakje ernaast om verder te gaan — of sleep in één keer door de vakjes waar de reeks langs gaat.",
+        "back": "Tik op een getal dat je zelf legde en tik nogmaals om het er weer af te halen, samen met alles wat er los van komt te liggen. De reeks een andere kant op leggen doet hetzelfde. Ongedaan maken haalt je laatste zet terug."
+      },
+      "channel": {
+        "given": "De akkers die al een getal hebben horen bij de puzzel — die blijven staan.",
+        "enter": "Tik op een akker met een getal om het water daar op te pakken en tik dan op een droge akker ernaast om verder te graven — of sleep in één keer langs de akkers waar het kanaal langs loopt.",
+        "back": "Tik op een akker die je groef en tik nogmaals om hem weer dicht te gooien, samen met het kanaal dat er los van komt te liggen. Een andere kant op graven doet hetzelfde. Ongedaan maken haalt je laatste zet terug."
+      },
+      "scribe": {
+        "given": "De tekens die in rood staan horen bij de puzzel — die blijven staan.",
+        "enter": "Tik op een teken om daar de rietpen op te pakken en tik dan op een lege plek ernaast om verder te schrijven — of sleep in één keer langs de regel.",
+        "back": "Tik op een teken dat je zelf schreef en tik nogmaals om het weg te schrapen, samen met de regel die er los van komt te liggen. Een andere kant op schrijven doet hetzelfde. Ongedaan maken haalt je laatste zet terug."
+      },
+      "chambers": {
+        "given": "De kamers die al een getal hebben zijn door de bouwers uitgehouwen — die blijven staan.",
+        "enter": "Tik op een kamer met een getal om de gang daar op te pakken en tik dan op een gesloten kamer ernaast om door te breken — of sleep in één keer langs de kamers waar de gang langs loopt.",
+        "back": "Tik op een kamer die je opende en tik nogmaals om hem weer dicht te zetten, samen met de gang die er los van komt te liggen. Een andere kant op doorbreken doet hetzelfde. Ongedaan maken haalt je laatste zet terug."
+      }
+    },
+    "goal": {
+      "default": "Elk vakje van de raat krijgt een getal, 1 tot {{last}}, en elk getal ligt tegen het vorige aan.",
+      "channel": "Eén kanaal bewatert de hele vlakte: elke akker komt aan de beurt, 1 tot {{last}}, elk gegraven naast de akker ervoor.",
+      "scribe": "Eén doorlopende regel tekens loopt over het vel: elke plek krijgt een teken, 1 tot {{last}}, telkens naast het teken ervoor.",
+      "chambers": "Eén gang loopt door het hele graf: elke kamer komt aan de beurt, 1 tot {{last}}, telkens doorgebroken vanuit de kamer ervoor."
+    },
+    "hint": {
+      "default": {
+        "reason": {
+          "mistake": "Een van deze getallen kan niet goed staan.",
+          "sandwich": "De {{before}} en de {{after}} raken samen nog maar één leeg vakje.",
+          "neighbourForced": "Naast de {{from}} is nog maar één vakje leeg.",
+          "onlyCell": "Ergens anders in de raat kan de {{value}} niet meer.",
+          "onlyValue": "Geen enkel ander getal kan bij dit vakje komen."
+        },
+        "action": {
+          "place": "Zet {{value}} in het gearceerde vakje."
+        }
+      },
+      "channel": {
+        "reason": {
+          "mistake": "Een van deze getallen kan niet goed staan.",
+          "sandwich": "De {{before}} en de {{after}} raken samen nog maar één droge akker.",
+          "neighbourForced": "Naast de {{from}} ligt nog maar één droge akker.",
+          "onlyCell": "Nergens anders op de vlakte past de {{value}} nog.",
+          "onlyValue": "Geen enkel ander getal kan bij deze akker komen."
+        },
+        "action": {
+          "place": "Graaf {{value}} in de gearceerde akker."
+        }
+      },
+      "scribe": {
+        "reason": {
+          "mistake": "Een van deze tekens kan niet goed staan.",
+          "sandwich": "De {{before}} en de {{after}} raken samen nog maar één lege plek.",
+          "neighbourForced": "Naast de {{from}} is nog maar één plek leeg.",
+          "onlyCell": "Nergens anders op het vel past de {{value}} nog.",
+          "onlyValue": "Geen enkel ander teken kan bij deze plek komen."
+        },
+        "action": {
+          "place": "Schrijf {{value}} op de gearceerde plek."
+        }
+      },
+      "chambers": {
+        "reason": {
+          "mistake": "Een van deze getallen kan niet goed staan.",
+          "sandwich": "De {{before}} en de {{after}} raken samen nog maar één gesloten kamer.",
+          "neighbourForced": "Naast de {{from}} is nog maar één kamer gesloten.",
+          "onlyCell": "Nergens anders in het graf past de {{value}} nog.",
+          "onlyValue": "Geen enkel ander getal kan bij deze kamer komen."
+        },
+        "action": {
+          "place": "Open {{value}} in de gearceerde kamer."
+        }
+      }
+    },
+    "name": {
+      "default": "Honingraat",
+      "channel": "Het Kanaal",
+      "scribe": "Schrijversvel",
+      "chambers": "Gesloten Kamers"
+    }
+  },
+  "sudoku": {
+    "rules": {
+      "default": {
+        "chambers": "De dikke lijnen verdelen het raster in zes kamers, twee vakjes breed en drie hoog.",
+        "given": "De getallen die al ingehakt zijn horen bij de puzzel — die blijven staan.",
+        "enter": "Tik op een vakje en tik daarna op een getal. Hetzelfde getal nog een keer haalt het er weer uit.",
+        "notes": "Schakel over op het potlood om de getallen te noteren die een vakje nog kan bevatten. Ongedaan maken neemt je laatste zet terug."
+      },
+      "papyrus": {
+        "chambers": "De dikke pennenstreken verdelen het vel in zes panelen, twee plekken breed en drie hoog.",
+        "given": "De tekens in rode inkt horen bij de puzzel — die blijven staan.",
+        "enter": "Tik op een plek en tik daarna op een teken. Hetzelfde teken nog een keer schraapt het weer weg.",
+        "notes": "Neem de rietpen op om de tekens te noteren die een plek nog kan dragen. Ongedaan maken neemt je laatste zet terug."
+      }
+    },
+    "hint": {
+      "default": {
+        "reason": {
+          "mistake": {
+            "value": "Een van deze getallen kan niet kloppen. Haal het eruit en kijk opnieuw.",
+            "note": "De notities in dit vakje sluiten het getal uit dat hier hoort. Wis ze en begin opnieuw."
+          },
+          "nakedSingle": "De rij, de kolom en de kamer van dit vakje hebben elk ander getal al opgenomen.",
+          "hiddenSingle": {
+            "row": "{{token}} past in geen enkel ander vakje van deze rij.",
+            "col": "{{token}} past in geen enkel ander vakje van deze kolom.",
+            "box": "{{token}} past in geen enkel ander vakje van deze kamer."
+          },
+          "pointing": {
+            "row": "Binnen de gemarkeerde kamer kan {{token}} alleen op deze rij staan.",
+            "col": "Binnen de gemarkeerde kamer kan {{token}} alleen in deze kolom staan."
+          },
+          "claiming": {
+            "row": "Langs de gemarkeerde rij past {{token}} alleen binnen deze ene kamer.",
+            "col": "In de gemarkeerde kolom past {{token}} alleen binnen deze ene kamer."
+          }
+        },
+        "action": {
+          "place": "Zet {{token}} in het gearceerde vakje.",
+          "ruleOut_one": "Streep {{token}} weg in het gearceerde vakje.",
+          "ruleOut_other": "Streep {{token}} weg in de gearceerde vakjes."
+        }
+      },
+      "papyrus": {
+        "reason": {
+          "mistake": {
+            "value": "Een van deze tekens kan niet kloppen. Schraap het weg en kijk opnieuw.",
+            "note": "De notities op deze plek sluiten het teken uit dat hier hoort. Wis ze en begin opnieuw."
+          },
+          "nakedSingle": "De rij, de kolom en het paneel van deze plek hebben elk ander teken al opgenomen.",
+          "hiddenSingle": {
+            "row": "{{token}} past op geen enkele andere plek in deze rij.",
+            "col": "{{token}} past op geen enkele andere plek in deze kolom.",
+            "box": "{{token}} past op geen enkele andere plek in dit paneel."
+          },
+          "pointing": {
+            "row": "Binnen het gemarkeerde paneel kan {{token}} alleen op deze rij staan.",
+            "col": "Binnen het gemarkeerde paneel kan {{token}} alleen in deze kolom staan."
+          },
+          "claiming": {
+            "row": "Langs de gemarkeerde rij past {{token}} alleen binnen dit ene paneel.",
+            "col": "In de gemarkeerde kolom past {{token}} alleen binnen dit ene paneel."
+          }
+        },
+        "action": {
+          "place": "Schrijf {{token}} op de gearceerde plek.",
+          "ruleOut_one": "Streep {{token}} weg op de gearceerde plek.",
+          "ruleOut_other": "Streep {{token}} weg op de gearceerde plekken."
+        }
+      }
+    },
+    "goal": {
+      "default": "Elke rij, elke kolom en elke kamer toont elk van de zes getallen precies één keer.",
+      "papyrus": "Elke rij, elke kolom en elk paneel draagt elk van de zes tekens precies één keer."
+    },
+    "name": {
+      "default": "Zes Kamers",
+      "papyrus": "Het Register van de Schrijver"
+    }
+  },
+  "crocodile": {
+    "name": "De Krokodillenkuil",
+    "goal": "Steek de kuil over naar de andere oever.",
+    "rules": {
+      "want": "Elke krokodil wil één antwoord uit de rij stenen achter zich: het grootste, of het kleinste.",
+      "mark": "Zijn open bek zegt welke, en het teken ernaast ook: > staat open naar het grootste antwoord, < naar het kleinste.",
+      "bite": "Stap je op een andere steen, dan hapt hij: je verliest een hart en begint weer bij de oever."
+    },
+    "hint": {
+      "biggest": "Deze krokodil wil het grootste antwoord. Dat is {{value}}.",
+      "smallest": "Deze krokodil wil het kleinste antwoord. Dat is {{value}}."
+    }
+  },
+  "canisters": {
+    "name": {
+      "default": "De Kruiken",
+      "grain": "De Korenmaten",
+      "oil": "Olie voor de Lampen",
+      "wine": "De Wijnkelder",
+      "natron": "De Canopen",
+      "ink": "Het Schrijfvertrek"
+    },
+    "goal": {
+      "default_one": "Meet het gevraagde volume af en zeg welke kruik het heeft.",
+      "default_other": "Meet de gevraagde volumes één voor één af en zeg telkens welke kruik het heeft.",
+      "grain_one": "Meet de gevraagde hoeveelheid graan af en zeg welke maat het heeft.",
+      "grain_other": "Meet de gevraagde hoeveelheden graan één voor één af en zeg telkens welke maat het heeft.",
+      "oil_one": "Meet de gevraagde olie af en zeg welke kruik het heeft.",
+      "oil_other": "Meet de gevraagde hoeveelheden olie één voor één af en zeg telkens welke kruik het heeft.",
+      "wine_one": "Meet de gevraagde wijn af en zeg welke amfoor het heeft.",
+      "wine_other": "Meet de gevraagde hoeveelheden wijn één voor één af en zeg telkens welke amfoor het heeft.",
+      "natron_one": "Meet het gevraagde natron af en zeg welke canope het heeft.",
+      "natron_other": "Meet de gevraagde hoeveelheden natron één voor één af en zeg telkens welke canope het heeft.",
+      "ink_one": "Meet de gevraagde inkt af en zeg welke pot het heeft.",
+      "ink_other": "Meet de gevraagde hoeveelheden inkt één voor één af en zeg telkens welke pot het heeft."
+    },
+    "rules": {
+      "method": {
+        "sums": "Elke hoeveelheid die je kunt maken is twee getallen van de bank, bij elkaar op of van elkaar af: de maat van een kruik, wat erin zit, of de ruimte die er nog bij kan.",
+        "backwards": "Werk dus terug vanaf de gevraagde hoeveelheid — welke twee getallen maken die, en hoe krijg je die twee tegelijk op de bank?"
+      },
+      "claim": "Heb je de hoeveelheid? Tik dan op “deze”. Het verkeerde vat aanwijzen kost een zet.",
+      "legs": "Daarna de volgende hoeveelheid, gemeten vanuit wat er nog in de vaten staat.",
+      "default": {
+        "moves": "Tik op een kruik om hem op te pakken en tik dan op een andere om over te gieten. Het gieten stopt zodra de eerste leeg is of de tweede vol.",
+        "contents": "Dit is al het water dat er is — één kruik begint vol, en er kan niets weg en niets bij.",
+        "levels": "Op elke kruik staat hoeveel erin zit, en hoeveel er vol in gaat."
+      },
+      "grain": {
+        "moves": "Tik op een maat om hem op te tillen en tik dan op een andere om het graan erin te storten. Het storten stopt zodra de eerste leeg is of de tweede tot de rand staat.",
+        "contents": "Dit is al het graan dat er is — één maat begint vol, en er kan niets weg en niets bij uit de schuur.",
+        "levels": "Op elke maat staat hoeveel erin zit, en hoeveel er tot de rand in gaat."
+      },
+      "oil": {
+        "moves": "Tik op een kruik om hem op te tillen en tik dan op een andere om over te gieten. Het gieten stopt zodra de eerste leeg is of de tweede vol.",
+        "contents": "Dit is alle olie die er is — één kruik begint vol, en er kan niets weg en niets bij.",
+        "levels": "Op elke kruik staat hoeveel erin zit, en hoeveel er vol in gaat."
+      },
+      "wine": {
+        "moves": "Tik op een amfoor om hem op te tillen en tik dan op een andere om over te schenken. Het schenken stopt zodra de eerste leeg is of de tweede vol.",
+        "contents": "Dit is alle wijn die er is — één amfoor begint vol, en er kan niets weg en niets bij uit de kelder.",
+        "levels": "Op elke amfoor staat hoeveel erin zit, en hoeveel er vol in gaat."
+      },
+      "natron": {
+        "moves": "Tik op een canope om hem op te tillen en tik dan op een andere om het natron erin te storten. Het storten stopt zodra de eerste leeg is of de tweede tot het deksel staat.",
+        "contents": "Dit is al het natron dat er is — één canope begint vol, en er kan niets weg en niets bij.",
+        "levels": "Op elke canope staat hoeveel erin zit, en hoeveel er tot de deksel in gaat."
+      },
+      "ink": {
+        "moves": "Tik op een pot om hem op te tillen en tik dan op een andere om over te gieten. Het gieten stopt zodra de eerste leeg is of de tweede vol.",
+        "contents": "Dit is alle inkt die er is — één pot begint vol, en er kan niets weg en niets bij gewreven.",
+        "levels": "Op elke pot staat hoeveel erin zit, en hoeveel er vol in gaat."
+      }
+    },
+    "hint": {
+      "goal": {
+        "leftover": "Terugwerkend: {{amount}} is {{content}} met {{space}} eraf — een kruik met {{content}} erin, gegoten in een kruik waar nog {{space}} bij kan.",
+        "full": "Terugwerkend: {{amount}} is de maat van een kruik, en {{a}} en {{b}} samen zijn precies dat.",
+        "sum": "Terugwerkend: {{amount}} is {{a}} en {{b}} bij elkaar."
+      },
+      "claim": "Dat is nog één gieting. Zoek daarna uit welke kruik het heeft.",
+      "stuck": "Vanaf hier krijg je {{target}} niet meer afgemeten met de zetten die je nog hebt. Neem een gieting terug, of begin opnieuw.",
+      "overBudget": "Je zetten zijn op. Neem er een terug, of begin opnieuw en zoek de kortere weg.",
+      "next": {
+        "leftover": "De som daarvoor: {{amount}} — {{content}} gegoten in ruimte voor {{space}}.",
+        "full": "De som daarvoor: een kruik die vol staat op {{amount}} — {{a}} en {{b}} bij elkaar.",
+        "sum": "De som daarvoor: {{amount}} — {{a}} en {{b}} bij elkaar."
+      }
+    },
+    "movesLeft_one": "nog {{count}} zet",
+    "movesLeft_other": "nog {{count}} zetten",
+    "legs": "{{done}} van {{total}} afgemeten",
+    "wanted": "Meet af",
+    "claim": "deze",
+    "claimAria": "Zeg dat de {{capacity}} de hoeveelheid bevat"
+  },
+  "procession": {
+    "name": {
+      "default": "De Geordende Uren",
+      "funerary": "De Dag in het Dal van de Ambachtslieden",
+      "cosmos": "De Tocht van de Nacht",
+      "water": "De Dag van de Overstroming",
+      "trade": "De Dag aan de Kade"
+    },
+    "goal": {
+      "default": "Schuif elk ding dat gebeurt naar zijn uur, tot alle tekens onder de dag kloppen.",
+      "funerary": "Schuif elke taak naar zijn uur, tot alle tekens onder de dag kloppen.",
+      "cosmos": "Schuif elk licht naar zijn uur, tot alle tekens onder de nacht kloppen.",
+      "water": "Schuif elke taak naar zijn uur, tot alle tekens onder de dag kloppen.",
+      "trade": "Schuif elke taak naar zijn uur, tot alle tekens onder de dag kloppen."
+    },
+    "rules": {
+      "default": {
+        "lengths": "Elke rij is één ding dat gebeurt, en het duurt zo lang als zijn balk breed is. Wanneer het gebeurt zoek jij uit.",
+        "marks": "Een regel onder de dag kleurt rood zolang hij niet klopt. Tik erop om de rijen te omringen waar hij over gaat.",
+        "drag": "Sleep een balk over zijn eigen rij. Hij gaat de dag nooit uit."
+      }
+    },
+    "hint": {
+      "default": {
+        "chain": "Die rij ligt al vast, en deze hangt eraan.",
+        "squeeze": "Er is nog maar zoveel dag over, en dit is alles wat er past.",
+        "apart": "Andersom past het niet in de dag.",
+        "split": "Probeer het andersom en er breekt iets anders.",
+        "move": "Sleep de omringde balk op de gearceerde streepjes."
+      }
+    },
+    "events": {
+      "default": [
+        "het vuur",
+        "het water halen",
+        "het bakken",
+        "de boottocht",
+        "het ossen drijven",
+        "de nachtwake"
+      ],
+      "funerary": [
+        "het pleisteren",
+        "het uitzetten van het raster",
+        "het beitelen",
+        "het schilderen",
+        "het vergulden",
+        "het plaatsen van de deur"
+      ],
+      "cosmos": [
+        "de tocht van de zon",
+        "het opkomen van de ster",
+        "de maanwake",
+        "de open hemel",
+        "de dageraad",
+        "het kerende jaar"
+      ],
+      "water": [
+        "de overstroming",
+        "het graven van de geul",
+        "het vullen van het bekken",
+        "het besproeien van de akker",
+        "het overzetten",
+        "het oogsten"
+      ],
+      "trade": [
+        "het sorteren van de waren",
+        "de broodverkoop",
+        "de bierverkoop",
+        "het overzetten",
+        "het sjouwen",
+        "de telling"
+      ]
+    },
+    "marks": {
+      "default": {
+        "pin": "{{a}} begint op uur {{tick}}.",
+        "handoff": "{{a}} begint zodra {{b}} klaar is.",
+        "link_one": "{{a}} begint {{count}} uur nadat {{b}} klaar is.",
+        "link_other": "{{a}} begint {{count}} uur nadat {{b}} klaar is.",
+        "before": "{{a}} is klaar voordat {{b}} begint.",
+        "apart": "{{a}} en {{b}} lopen nooit tegelijk.",
+        "together": "{{a}} en {{b}} lopen een tijd tegelijk.",
+        "span_one": "Van de eerste start tot het laatste einde is {{count}} uur.",
+        "span_other": "Van de eerste start tot het laatste einde is {{count}} uur."
+      }
+    },
+    "door": {
+      "title": "De processiedeur",
+      "hint": "Elke tegel waar je op stapt maakt zijn bezigheid vrij. Orden de dag en loop dan de tegels in die volgorde.",
+      "read": "De dag is gelezen. Loop de tegels in deze volgorde, vanaf de eerste.",
+      "hintButton": "Hint"
+    }
+  },
+  "story": {
+    "log": {
+      "title": "Wat ons verteld is",
+      "empty": "Nog niets. Fez gaat vast genoeg zeggen."
+    },
+    "speaker": {
+      "fez": "Fez",
+      "explorer": "Jij",
+      "ipi": "Ipi",
+      "henut": "Henut",
+      "priest": "De priester",
+      "pharaoh": "De farao"
+    },
+    "wall": {
+      "wrong": "Iemand heeft het derde teken verkeerd gehakt. Al drieduizend jaar staat het er fout.",
+      "fixed": "Dat is haar naam weer.",
+      "pick": "Zet het juiste teken op zijn plaats.",
+      "cannot": "Je kent het teken dat hier hoort nog niet."
+    },
+    "sphinx": {
+      "wrong": "Het schrift onderaan, waar het zand steeds vanaf waait. Twee tekens nog scherp gehakt, en een lege plek waar het derde stond.",
+      "fixed": "Dat is het, in zijn geheel.",
+      "pick": "Zet het teken dat je bij je hebt in de lege plek.",
+      "cannot": "Twee tekens die je kent, en een plek die je niet kunt vullen. Nog niet.",
+      "gap": "Het ontbrekende teken"
+    }
+  },
+  "lightbeamSwitch": {
+    "name": "Het Kerende Licht",
+    "invitation": "Draai de spiegels",
+    "goal": "Het licht rust in een heiligdom, en de doorgang eronder staat open.",
+    "rules": {
+      "shrines": "Eén schijf licht, en een heiligdom boven elke doorgang van dit kruispunt. De spiegels op de vloer kunnen het licht naar elk ervan brengen.",
+      "doors": "De doorgang die het licht bereikt staat open, de andere zijn dicht. Eén route, één weg verder.",
+      "returning": "Kiezen kost je niets. Loop wanneer je wilt weer binnen en stuur het licht een andere kant op — die gaat open, en deze gaat dicht.",
+      "tap": "Tik op een spiegel om hem te draaien. Nog een tik zet hem terug."
+    },
+    "doorOpen": "{{way}} doorgang: open",
+    "doorShut": "{{way}} doorgang: dicht",
+    "way": { "n": "Noordelijke", "e": "Oostelijke", "s": "Zuidelijke", "w": "Westelijke" }
+  },
+  "handle": {
+    "name": "De Hendel",
+    "invitation": "Trek de hendel over",
+    "goal": "De hendel staat naar links of naar rechts. Wat de ene kant opent, sluit de andere.",
+    "left": "Naar links",
+    "right": "Naar rechts"
+  },
+  "torch": {
+    "name": "De Fakkel",
+    "invitation": "Steek de fakkel aan",
+    "goal": "Een onaangestoken fakkel. Als hij eenmaal brandt, kun je hem niet meer doven.",
+    "lit": "De fakkel brandt."
+  },
+  "gateFace": {
+    "title": "Een Wachtende Deur",
+    "hint": "Elk teken moet branden voordat deze deur opengaat.",
+    "lit": "{{owner}}: aan",
+    "unlit": "{{owner}}: nog niet",
+    "owner": { "torch": "Fakkel", "handle": "Hendel", "key": "Sleutel", "plateStone": "Een steen op een plaat", "plateEmpty": "Een lege plaat", "other": "Mechanisme" },
+    "orderHint": "Betreed de tegels in deze volgorde.",
+    "reset": "Opnieuw beginnen",
+    "spoiled": "De reeks is verpest: een tegel is in de verkeerde volgorde betreden.",
+    "tile": { "unwalked": "Stap {{step}}: nog niet betreden", "inOrder": "Stap {{step}}: in volgorde betreden", "outOfOrder": "Stap {{step}}: in verkeerde volgorde betreden" }
+  },
+  "devLockEditor": {"syntax":"Syntaxis","example":"Voorbeeld","useExample":"Voorbeeld gebruiken","title":"Slot-editor","notation":"Slotnotatie","checks":"Controles","drawing":"Tekening","carveAndPlay":"Uithouwen en spelen","copyLink":"Link kopiëren","copied":"Link gekopieerd","failed":"Kopiëren mislukt; de link staat in de adresbalk","backToEditor":"← Editor","close":"Sluiten","open":"Slot-editor"}
+}
