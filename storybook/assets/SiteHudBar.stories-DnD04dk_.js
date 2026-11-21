@@ -1,0 +1,5 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t}from"./iframe-D0Egwrw_.js";import{n,t as r}from"./HealthDisplay-C1171ZvI.js";var i,a;function o(){return(o=e((()=>{i=t(),a=({children:e})=>(0,i.jsx)(`div`,{className:`pointer-events-none absolute inset-x-0 bottom-safe-bottom z-10 mb-4 flex flex-col items-center justify-center gap-2`,children:e})})))()}var s,c,l,u;function d(){return(d=e((()=>{o(),n(),s=t(),c={component:a,parameters:{layout:`fullscreen`},decorators:[e=>(0,s.jsx)(`div`,{className:`relative h-64 w-full bg-stone-950`,children:(0,s.jsx)(e,{})})]},l={args:{children:(0,s.jsx)(r,{currentHealth:6,maxHealth:8})}},u=[`Default`],l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  args: {
+    children: <HealthDisplay currentHealth={6} maxHealth={8} />
+  }
+}`,...l.parameters?.docs?.source}}}})))()}d();export{l as Default,u as __namedExportsOrder,c as default};

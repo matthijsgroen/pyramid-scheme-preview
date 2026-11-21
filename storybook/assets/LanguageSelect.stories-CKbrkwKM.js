@@ -1,0 +1,5 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,t as n}from"./LanguageSelect-b-vhIZ4B.js";var r,i,a,o,s;function c(){return(c=e((()=>{t(),{fn:r}=__STORYBOOK_MODULE_TEST__,i={component:n,args:{value:`en`,preferred:[{code:`en`,name:`English`},{code:`nl`,name:`Nederlands`}],others:[{code:`cs`,name:`Čeština`},{code:`de`,name:`Deutsch`},{code:`fy`,name:`Frysk`},{code:`el`,name:`Ελληνικά`}],onChange:r(),className:`rounded-md border border-gray-300 bg-white px-3 py-2 text-gray-900`}},a={},o={args:{preferred:[]}},s=[`BrowserLanguagesFirst`,`NoBrowserMatch`],a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{}`,...a.parameters?.docs?.source}}},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  args: {
+    preferred: []
+  }
+}`,...o.parameters?.docs?.source},description:{story:`A browser reading none of the shipped languages: one list, no divider.`,...o.parameters?.docs?.description}}}})))()}c();export{a as BrowserLanguagesFirst,o as NoBrowserMatch,s as __namedExportsOrder,i as default};

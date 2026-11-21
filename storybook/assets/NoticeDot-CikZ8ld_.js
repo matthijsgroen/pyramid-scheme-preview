@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t}from"./iframe-D0Egwrw_.js";var n,r;function i(){return(i=e((()=>{n=t(),r=({label:e})=>(0,n.jsx)(`span`,{role:e?`img`:void 0,"aria-label":e,"aria-hidden":!e||void 0,className:`size-2.5 shrink-0 rounded-full bg-camp-accent`})})))()}export{i as n,r as t};

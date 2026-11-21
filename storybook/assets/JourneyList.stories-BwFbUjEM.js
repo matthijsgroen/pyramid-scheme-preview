@@ -1,0 +1,15 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t}from"./iframe-D0Egwrw_.js";import{n,t as r}from"./JourneyRow-CmvvGjcY.js";import{n as i,t as a}from"./TierHeader-CU3pCtiz.js";var o,s;function c(){return(c=e((()=>{o=t(),s=({groups:e,footer:t,emptyText:n})=>(0,o.jsxs)(`div`,{className:`flex min-h-full flex-col gap-2 text-camp-ink`,children:[e.length===0&&n&&(0,o.jsx)(`p`,{className:`text-[15px] text-camp-ink-soft`,children:n}),e.map(e=>(0,o.jsxs)(`section`,{className:`flex flex-col gap-2`,children:[e.header,e.open&&(0,o.jsx)(`ul`,{className:`flex flex-col gap-2`,children:e.rows.map((e,t)=>(0,o.jsx)(`li`,{children:e},t))})]},e.key)),t&&(0,o.jsx)(`div`,{className:`mt-auto pt-2`,children:t})]})})))()}var l,u,d,f,p,m,h;function g(){return(g=e((()=>{c(),n(),i(),l=t(),u=()=>{},d={component:s,parameters:{layout:`centered`},args:{groups:[{key:`junior`,open:!0,header:(0,l.jsx)(a,{title:`Junior`,progress:`1 van 5 klaar`}),rows:[(0,l.jsx)(r,{name:`Vallei van de Ambachtslieden`,note:`Bezig · piramide 3 van 5`,status:`current`,exterior:`pyramid`,currentLabel:`NU`,onOpen:u},`1`),(0,l.jsx)(r,{name:`Heilige Ibis Migratie`,note:`Voltooid · 1 verborgen deur open`,status:`finished`,exterior:`pyramid`,currentLabel:`NU`,dot:!0,dotLabel:`Er is iets nieuws`,onOpen:u},`2`),(0,l.jsx)(r,{name:`Edelman's Verborgen Kluis`,note:`Nog 1 kaartstuk nodig (2 van 3)`,status:`locked`,exterior:`tomb`,currentLabel:`NU`},`3`)]},{key:`beginner`,open:!1,header:(0,l.jsx)(a,{title:`Beginner`,progress:`5 van 5 klaar`,collapsible:{open:!1,onToggle:u,label:`Tier tonen`},dot:!0,dotLabel:`Er is iets nieuws`}),rows:[]}],footer:(0,l.jsx)(`p`,{className:`rounded-[10px] bg-camp-chip px-3 py-2.5 text-[13px] text-camp-ink-soft`,children:`De volgende tier komt eraan.`})}},f={decorators:[e=>(0,l.jsx)(`div`,{className:`h-150 w-[358px] overflow-auto bg-camp-paper p-3.5`,children:(0,l.jsx)(e,{})})]},p={decorators:[e=>(0,l.jsx)(`div`,{className:`h-150 w-110 overflow-auto bg-camp-paper p-3.5`,children:(0,l.jsx)(e,{})})]},m={args:{groups:[],footer:void 0,emptyText:`Nog geen reizen.`}},h=[`Phone`,`InPanel`,`Empty`],f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
+  decorators: [Story => <div className="h-150 w-[358px] overflow-auto bg-camp-paper p-3.5">
+        <Story />
+      </div>]
+}`,...f.parameters?.docs?.source}}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{
+  decorators: [Story => <div className="h-150 w-110 overflow-auto bg-camp-paper p-3.5">
+        <Story />
+      </div>]
+}`,...p.parameters?.docs?.source}}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+  args: {
+    groups: [],
+    footer: undefined,
+    emptyText: "Nog geen reizen."
+  }
+}`,...m.parameters?.docs?.source}}}})))()}g();export{m as Empty,p as InPanel,f as Phone,h as __namedExportsOrder,d as default};

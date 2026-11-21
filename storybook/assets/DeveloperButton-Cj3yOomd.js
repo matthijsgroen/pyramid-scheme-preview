@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t}from"./iframe-D0Egwrw_.js";var n,r;function i(){return(i=e((()=>{n=t(),r=({onClick:e,label:t})=>(0,n.jsx)(`button`,{onClick:e,className:`rounded-md bg-red-600 p-2 text-white transition-all hover:scale-105 active:scale-95`,children:t})})))()}export{i as n,r as t};

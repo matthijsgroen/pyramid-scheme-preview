@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t}from"./iframe-D0Egwrw_.js";var n,r;function i(){return(i=e((()=>{n=t(),r=({label:e,className:t=``})=>(0,n.jsx)(`span`,{className:`rounded-full bg-camp-accent px-1.5 py-px text-[10px] font-extrabold text-camp-on-accent ${t}`,children:e})})))()}export{i as n,r as t};

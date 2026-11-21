@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{t}from"./package-D0Ex1IVc.js";var n,r,i;function a(){return(a=e((()=>{n=t(),r=600,i=(e,t,i=r)=>{let[a,o]=(0,n.useState)(e);return(0,n.useEffect)(()=>{let t=setTimeout(()=>o(e),i);return()=>clearTimeout(t)},[e,i]),new Set([...t(a)].filter(t=>a[t]===e[t]))}})))()}export{i as n,a as t};
