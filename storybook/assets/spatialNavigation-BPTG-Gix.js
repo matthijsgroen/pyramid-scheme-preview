@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";var t,n,r;function i(){return(i=e((()=>{t=e=>({x:e.left+e.width/2,y:e.top+e.height/2}),n=2,r=(e,r,i)=>{let a=t(e),o,s=1/0;return r.forEach((e,r)=>{let{x:c,y:l}=t(e),u=c-a.x,d=l-a.y,f=i===`e`?u:i===`w`?-u:i===`s`?d:-d,p=Math.abs(i===`e`||i===`w`?d:u);if(f<=0)return;let m=f+p*n;m<s&&(s=m,o=r)}),o}})))()}export{r as n,i as t};

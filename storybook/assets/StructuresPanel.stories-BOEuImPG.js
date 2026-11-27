@@ -1,0 +1,6 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{t}from"./package-D0Ex1IVc.js";import{n}from"./iframe-BfmzYHTX.js";import{n as r,t as i}from"./StructureRow-CYiLPz6P.js";import{n as a,t as o}from"./StructuresPanel-CRFF1RjH.js";var s,c,l,u,d,f,p,m;function h(){return(h=e((()=>{s=t(),r(),a(),c=n(),l={progress:``,built:`gebouwd`,unknownPart:`???`,toggle:`Onderdelen tonen`},u=[{name:`Tent`,found:2,total:3,parts:[{id:`a`,name:`Tentstokken`},{id:`b`,name:`Geweven doek`},{id:`c`}]},{name:`Put`,found:1,total:4,parts:[{id:`a`,name:`Putstenen`},{id:`b`},{id:`c`},{id:`d`}]},{name:`Vuur`,found:2,total:2,parts:[{id:`a`,name:`Tondel`},{id:`b`,name:`Acaciahout`}]}],d=()=>{let[e,t]=(0,s.useState)(0);return(0,c.jsx)(`div`,{className:`w-80`,children:(0,c.jsx)(o,{title:`Constructies`,children:u.map((n,r)=>(0,c.jsx)(i,{...n,labels:{...l,progress:`${n.found} van ${n.total}`},open:e===r,onToggle:()=>t(e===r?null:r)},n.name))})})},f={component:o,parameters:{layout:`centered`}},p={args:{title:`Constructies`},render:()=>(0,c.jsx)(d,{})},m=[`ThreeRowsOneOpen`],p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{
+  args: {
+    title: "Constructies"
+  },
+  render: () => <Demo />
+}`,...p.parameters?.docs?.source}}}})))()}h();export{p as ThreeRowsOneOpen,m as __namedExportsOrder,f as default};

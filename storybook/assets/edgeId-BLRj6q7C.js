@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";var t,n;function r(){return(r=e((()=>{t=(e,t,n)=>`${e}:${t},${n}`,n=e=>{if(e.includes(`:`)){let[t,n]=e.split(`:`),[r,i]=n.split(`,`).map(Number);return[Number(t),r,i]}let[t,n]=e.split(`,`).map(Number);return[0,t,n]}})))()}export{t as n,r,n as t};

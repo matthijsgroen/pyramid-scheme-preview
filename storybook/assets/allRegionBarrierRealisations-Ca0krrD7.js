@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t}from"./registeredMods-h00D71jY.js";var n,r,i;function a(){return(a=e((()=>{n=new Map,r=e=>n.set(e.type,e),i=e=>n.get(e)})))()}function o(){return(o=e((()=>{t()})))()}export{r as i,i as n,a as r,o as t};

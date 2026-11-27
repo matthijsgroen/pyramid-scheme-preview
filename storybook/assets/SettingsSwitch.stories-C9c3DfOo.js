@@ -1,0 +1,6 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t}from"./iframe-BfmzYHTX.js";var n,r;function i(){return(i=e((()=>{n=t(),r=({label:e,checked:t,onChange:r})=>(0,n.jsxs)(`label`,{className:`-mx-3 flex items-center gap-3 rounded-lg px-3 py-2`,children:[(0,n.jsx)(`input`,{type:`checkbox`,checked:t,onChange:e=>r(e.target.checked),className:`size-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500`}),(0,n.jsx)(`span`,{className:`text-sm font-medium text-gray-700`,children:e})]})})))()}var a,o,s,c,l,u;function d(){return(d=e((()=>{i(),a=t(),{fn:o}=__STORYBOOK_MODULE_TEST__,s={component:r,args:{label:`Sound effects`,checked:!0,onChange:o()},decorators:[e=>(0,a.jsx)(`div`,{className:`max-w-md bg-white p-6`,children:(0,a.jsx)(e,{})})]},c={},l={args:{label:`Music`,checked:!1}},u=[`On`,`Off`],c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{}`,...c.parameters?.docs?.source}}},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  args: {
+    label: "Music",
+    checked: false
+  }
+}`,...l.parameters?.docs?.source}}}})))()}d();export{l as Off,c as On,u as __namedExportsOrder,s as default};
